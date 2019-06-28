@@ -1,0 +1,219 @@
+<template>
+  <div>
+    <div class="news" ref="news">
+      <div class="news-wrapper" ref="newsWrapper">
+        <ul class="news-list" v-if="news.msg==='ok'">
+          <li class="news-item news-item-hook" v-for="(anew,index) in news.result.list" :key="index" @click="viewNews(anew,$event)">
+            <div class="news-item-left">
+              <h2 class="title">{{anew.title}}</h2>
+              <!-- <div class="pics-wrapper clearfix" v-show="anew.pic">
+              <img :src="anew.pic">
+            </div> -->
+              <div class="desc">
+                <span class="icon" v-show="anew.label">{{anew.label}}</span>
+                <span class="source">{{anew.src}}</span>
+                <span class="time">{{anew.time}}</span>
+              </div>
+            </div>
+            <div class="news-item-right" v-show="anew.pic">
+              <img :src="anew.pic">
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="no-content" v-show="news.msg!=='ok'">暂无内容</div>
+      <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh>
+    </div>
+    <transition name="move">
+      <router-view :selectNews="selectNews" />
+    </transition>
+  </div>
+</template>
+<script>
+import BScroll from 'better-scroll'
+import refresh from '@/components/refresh'
+
+export default {
+  props: {
+    news: {
+      type: Object
+    }
+  },
+  data() {
+    return {
+      selectNews: {},
+      newsTop: 0,
+      dropDown: false
+    }
+  },
+  mounted() {
+    this._initScroll()
+  },
+  updated() {
+    if (this.$refs.news) {
+      let img = this.$refs.news.getElementsByTagName('img')
+      let count = 0
+      if (img && img.length) {
+        let timer = setInterval(() => {
+          if (count === img.length) {
+            this.scroll.refresh()
+            clearInterval(timer)
+          } else {
+            count++
+          }
+        }, 10)
+      }
+      this._initScroll()
+    }
+  },
+  methods: {
+    viewNews(news, event) {
+      if (!event._constructed) {
+        return
+      }
+      this.selectNews = news
+      this.$router.push(`${this.$route.path}/article`)
+    },
+    _initScroll() {
+      this.$nextTick(() => {
+        if (!this.scroll) {
+          this.scroll = new BScroll(this.$refs.news, {
+            click: true,
+            probeType: 3,
+            pullDownRefresh: {
+              threshold: 50,
+              stop: 20
+            }
+          })
+          this.pullDownRefresh()
+        } else {
+          this.scroll.refresh()
+        }
+      })
+    },
+    pullDownRefresh() {
+      this.scroll.on('scroll', (pos) => {
+        console.log(pos.y, this.dropDown)
+        if (pos.y > 70) {
+          this.dropDown = true
+        } else {
+          this.dropDown = false
+        }
+      })
+    }
+  },
+  components: {
+    'v-refresh': refresh
+  }
+}
+
+</script>
+<style lang="less" scoped>
+.move-enter-active,
+.move-leave-active {
+  transition: all 0.3s;
+}
+
+.move-enter,
+.move-leave-to {
+  transform: translate3d(100%, 0, 0);
+}
+
+.move-leave,
+.move-enter-to {
+  transform: translate3d(0, 0, 0);
+}
+
+.no-content {
+  width: 100%;
+  height: 70px;
+  font-size: 16px;
+  line-height: 70px;
+  background-color: #f6f6f6;
+  color: #7e8c8d;
+  text-align: center;
+  z-index: 10;
+}
+
+.news {
+  position: absolute;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f6f6f6;
+  z-index: 9;
+  overflow: hidden;
+
+  .news-wrapper {
+    background-color: #fff;
+
+    .news-list {
+      .news-item {
+        padding: 20px 0;
+        margin: 0 20px;
+        border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+        display: flex;
+
+        &:last-child {
+          border: none;
+        }
+
+        .news-item-left {
+          flex: 1;
+
+          .title {
+            font-size: 16px;
+            line-height: 24px;
+          }
+
+          .pics-wrapper {
+            margin-top: 6px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .desc {
+            font-size: 0;
+            margin-top: 6px;
+
+            .icon {
+              border: 1px solid #f85959;
+              border-radius: 2px;
+              font-size: 10px;
+              line-height: 16px;
+              color: #f85959;
+              padding: 2px 3px;
+            }
+
+            .source,
+            .comment,
+            .time {
+              font-size: 10px;
+              line-height: 16px;
+              font-weight: 200;
+              margin-right: 6px;
+              color: #9c9c9c;
+            }
+          }
+        }
+
+        .news-item-right {
+          flex: 0 0 33%;
+          width: 33%;
+          margin-left: 5px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+</style>
