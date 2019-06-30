@@ -189,7 +189,7 @@ export default {
           &.active {
             color: #f85959;
             border-bottom: 2px solid #f85959;
-            box-sizing: border-box;
+            padding: 12px 18px 10px;
           }
         }
       }

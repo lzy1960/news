@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <v-header @update-news="changeData" :news="news" :channels="channels"></v-header>
-    <!-- <keep-alive> -->
-    <router-view :news="news" />
-    <!-- </keep-alive> -->
+    <keep-alive>
+      <router-view :news="news" @update-news="changeData" />
+    </keep-alive>
   </div>
 </template>
 <script>

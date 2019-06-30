@@ -7,8 +7,8 @@
             <div class="news-item-left">
               <h2 class="title">{{anew.title}}</h2>
               <!-- <div class="pics-wrapper clearfix" v-show="anew.pic">
-              <img :src="anew.pic">
-            </div> -->
+                <img :src="anew.pic">
+              </div> -->
               <div class="desc">
                 <span class="icon" v-show="anew.label">{{anew.label}}</span>
                 <span class="source">{{anew.src}}</span>
@@ -22,7 +22,11 @@
         </ul>
       </div>
       <div class="no-content" v-show="news.msg!=='ok'">暂无内容</div>
-      <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh>
+      <!-- 下拉刷新模块 -->
+      <div class="refresh" v-show="news" ref="refresh">
+        <p class="text"><span class="iconfont icon-refresh"></span>{{refreshText}}</p>
+      </div>
+      <!-- <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh> -->
     </div>
     <transition name="move">
       <router-view :selectNews="selectNews" />
@@ -31,7 +35,8 @@
 </template>
 <script>
 import BScroll from 'better-scroll'
-import refresh from '@/components/refresh'
+// import refresh from '@/components/refresh'
+// import { loadFromUrl } from '../common/js/getJson'
 
 export default {
   props: {
@@ -41,29 +46,84 @@ export default {
   },
   data() {
     return {
+      newsFn1: {},
       selectNews: {},
+      urlChannel: '',
       newsTop: 0,
-      dropDown: false
+      dropDown: false,
+      refreshText: '',
+      pullDownText: '下拉刷新',
+      refreshReady: '释放立即刷新',
+      refreshingText: '正在刷新',
+      successText: '刷新成功'
     }
   },
-  mounted() {
-    this._initScroll()
+  created() {
+    const _this = this
+
+    this.$nextTick(() => {
+      this.scroll = new BScroll(this.$refs.news, {
+        probeType: 2,
+        click: true,
+        pullDownRefresh: {
+          threshold: 70,
+          stop: 70
+        }
+      })
+      this.refreshText = this.pullDownText
+      this.scroll.on('pullingDown', () => {
+        console.log('refreshing')
+        this.scroll.finishPullDown()
+      })
+      this.scroll.refresh()
+      // 滑动事件
+      this.scroll.on('scroll', (pos) => {
+        if (pos.y > 70) {
+          this.refreshText = this.refreshReady
+        } else {
+          this.refreshText = this.pullDownText
+        }
+      })
+      // 滑动结束
+      this.scroll.on('touchend', (pos) => {
+        if (pos.y > 70) {
+          this.refreshText = this.refreshingText
+          this.$refs.newsWrapper.style.transform = 'translate(0px, 70px) translateZ(0px)'
+          console.log(this.$refs.newsWrapper.style.transform)
+          setTimeout(() => {
+            _this.getData().then((res) => {
+              _this.data = res
+              _this.refreshText = _this.successText
+              console.log('OK')
+              _this.scroll.refresh()
+            })
+          }, 1000)
+        }
+      })
+    })
   },
-  updated() {
-    if (this.$refs.news) {
-      let img = this.$refs.news.getElementsByTagName('img')
-      let count = 0
-      if (img && img.length) {
-        let timer = setInterval(() => {
-          if (count === img.length) {
-            this.scroll.refresh()
-            clearInterval(timer)
-          } else {
-            count++
-          }
-        }, 10)
+  mounted() {
+    // this._initScroll()
+  },
+  watch: {
+    news: function() {
+      if (this.news) {
+        let img = this.$refs.news.getElementsByTagName('img')
+        let count = 0
+        if (img && img.length) {
+          let timer = setInterval(() => {
+            if (count === img.length) {
+              this.scroll.refresh()
+              clearInterval(timer)
+            } else {
+              count++
+            }
+          }, 10)
+        }
+        this.$nextTick(() => {
+          this.scroll.refresh()
+        })
       }
-      this._initScroll()
     }
   },
   methods: {
@@ -81,29 +141,26 @@ export default {
             click: true,
             probeType: 3,
             pullDownRefresh: {
-              threshold: 50,
-              stop: 20
+              threshold: 100,
+              stop: 70
             }
           })
-          this.pullDownRefresh()
         } else {
-          this.scroll.refresh()
+          // this.scroll.refresh()
+          this.pullDownRefresh()
         }
       })
     },
-    pullDownRefresh() {
-      this.scroll.on('scroll', (pos) => {
-        console.log(pos.y, this.dropDown)
-        if (pos.y > 70) {
-          this.dropDown = true
-        } else {
-          this.dropDown = false
-        }
+    getData() {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve('OK')
+        }, 1000)
       })
     }
   },
   components: {
-    'v-refresh': refresh
+    // 'v-refresh': refresh
   }
 }
 
@@ -149,6 +206,30 @@ export default {
     background-color: #fff;
 
     .news-list {
+      position: relative;
+
+      .refresh {
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        top: -70px;
+        left: 0;
+        background-color: #f6f6f6;
+        z-index: -1;
+
+        .text {
+          text-align: center;
+          font-size: 14px;
+          line-height: 70px;
+          color: #7e8c8d;
+
+          .iconfont {
+            font-size: 14px;
+            margin-right: 5px;
+          }
+        }
+      }
+
       .news-item {
         padding: 20px 0;
         margin: 0 20px;
@@ -214,6 +295,27 @@ export default {
     }
   }
 
+  .refresh {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #f6f6f6;
+    z-index: -1;
+
+    .text {
+      text-align: center;
+      font-size: 14px;
+      line-height: 70px;
+      color: #7e8c8d;
+
+      .iconfont {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+    }
+  }
 }
 
 </style>
