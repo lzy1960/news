@@ -1,6 +1,6 @@
 <template>
-  <div class="refresh" v-show="news">
-    <p class="text"><span class="iconfont icon-refresh"></span>{{!dropDown?beforeRefreshText[0]:beforeRefreshText[1]}}</p>
+  <div class="refresh" v-show="news" ref="refresh">
+    <p class="text"><span class="iconfont icon-refresh"></span>{{refreshText}}</p>
   </div>
 </template>
 <script>
@@ -8,24 +8,20 @@ export default {
   props: {
     news: {
       type: Object
-    },
-    newsTop: {
-      type: Number
-    },
-    dropDown: {
-      type: Boolean
     }
-  },
-  computed: {
-    // refreshText() {
-
-    // }
   },
   data() {
     return {
-      beforeRefreshText: ['下拉刷新', '松开刷新'],
+      refreshText: '',
+      pullDownText: '下拉刷新',
+      refreshReady: '释放立即刷新',
       refreshingText: '正在刷新',
-      afterRefreshText: '刷新成功'
+      successText: '刷新成功'
+    }
+  },
+  methods: {
+    refresh() {
+
     }
   }
 }
@@ -38,10 +34,10 @@ export default {
   position: absolute;
   width: 100%;
   height: 70px;
-  top: 0;
+  top: -70px;
   left: 0;
-  background-color: #ccc;
-  z-index: -1;
+  background-color: #f6f6f6;
+  z-index: 0;
 
   .text {
     text-align: center;

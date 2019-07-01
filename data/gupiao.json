@@ -1,0 +1,410 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "result":
+  {
+    "channel": "股票",
+    "num": 40,
+    "list": [
+    {
+      "title": "投资者提问：董秘，我想问一下向董20|8半年报承诺的低于发行价不减持，股价...",
+      "time": "2019-07-01 11:12:58",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">董秘，我想问一下向董20|8半年报承诺的低于发行价不减持，股价低于净资产增持是否有效，有法律保证吗？还是随便说说，请负责任点回复。<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(豪能股份SH603809)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者，您好！您提到的2018年半年报中包含“股份限售的承诺”和“稳定股价预案的承诺”在内的全部承诺均有效，公司及全体董监高将严格履行各项承诺，关于承诺履行的约束措施也在报告中进行了详细披露，还请您查阅。谢谢您的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8862296.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8862296.shtml"
+    },
+    {
+      "title": "投资者提问：首先为董秘点赞，回答问题及时且接地气。6月底将会发布中报披露时...",
+      "time": "2019-07-01 11:13:08",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">首先为董秘点赞，回答问题及时且接地气。6月底将会发布中报披露时间表，因欧普康视子公司少财务相对简单。建议半年报时间尽量提前，如在7月初最佳（做到创业板前几名），这样才能让市场关注欧普康视，目前股本太少每天成交量可以排板块倒数，这样下去会成为没有成交的仙股，建议您转达并考虑。<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(欧普康视SZ300595)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好！公司目前子公司增加较快 ，财务人手紧张，7月份又是业务旺季 ，完成不了半年报工作，已预约8月28号发布半年报，请理解。谢谢！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0500282.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0500282.shtml"
+    },
+    {
+      "title": "投资者提问：请说明5月底亏损的原因？",
+      "time": "2019-07-01 11:13:21",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请说明5月底亏损的原因？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(东北证券SZ000686)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">股票二级市场波动导致公司当月业绩亏损。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8862321.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8862321.shtml"
+    },
+    {
+      "title": "投资者提问：请问一下你们公司的产品有没有进入爱尔眼科医院",
+      "time": "2019-07-01 11:13:28",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问一下你们公司的产品有没有进入爱尔眼科医院<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(欧普康视SZ300595)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好！公司与部分地市爱尔眼科医院有合作。谢谢！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0500290.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0500290.shtml"
+    },
+    {
+      "title": "投资者提问：1.请问公司章程里提到回购股票一事，是不是说管理层已经有类似的...",
+      "time": "2019-07-01 11:13:57",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">1.请问公司章程里提到回购股票一事，是不是说管理层已经有类似的预案？2.请问公司与百度小葱智能的合作的市场效果如何？3.请问子公司美乐乐今年能否扭亏？有无在科创板上市的打算？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(宜华生活SH600978)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好投资者！公司如有重大事项，会及时发布相关公告。感谢您对公司的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8862290.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8862290.shtml"
+    },
+    {
+      "title": "投资者提问：请问，天健在上海的孙公司转让股份给上海临港，对价47416.3...",
+      "time": "2019-07-01 11:13:58",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问，天健在上海的孙公司转让股份给上海临港，对价47416.35万元，换股22928602是不是真的？要不要公告呢？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(天健集团SZ000090)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">详情请关注公司于2019年5月10日披露的《关于全资子公司参与上海临港控股股份有限公司重大资产重组的公告》。感谢您的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8862323.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8862323.shtml"
+    },
+    {
+      "title": "投资者提问：贵公司在选举系统独步天下，有没有考虑在环保垃圾分类问题也有所建...",
+      "time": "2019-07-01 11:14:04",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">贵公司在选举系统独步天下，有没有考虑在环保垃圾分类问题也有所建树？毕竟选票和垃圾有个共性都是要”投“！<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(中科信息SZ300678)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者，感谢您关注中科信息，感谢您提出的宝贵建议。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0500270.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0500270.shtml"
+    },
+    {
+      "title": "投资者提问：按照深圳的房地产销售新规，完成地面以上三分之一即可预。天骄部分...",
+      "time": "2019-07-01 11:16:04",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">按照深圳的房地产销售新规，完成地面以上三分之一即可预。天骄部分楼面早已经超过此要求，为什么公司迟迟不预售呢？请大致回复预售情况（面积时间等），便于股民了解。谢谢啊<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(天健集团SZ000090)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">按照深圳相关规定，公司今年推出的天健天骄南苑为普通超高层住宅，需主体达到三分之二才可办理预售，现南苑主体已达到预售条件，目前正在办理预售的相关手续。感谢您的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8863584.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8863584.shtml"
+    },
+    {
+      "title": "投资者提问：请问天健天骄预售许可证拿到了没有？如果拿到了预售价格多少？",
+      "time": "2019-07-01 11:16:49",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问天健天骄预售许可证拿到了没有？如果拿到了预售价格多少？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(天健集团SZ000090)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">公司今年推出的天健天骄南苑主体已达到预售条件，目前正在办理预售的相关手续，预售价格尚未确定。感谢您的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0501628.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0501628.shtml"
+    },
+    {
+      "title": "投资者提问：董秘您好，按规定7月15日以前必须发中报预告，请问能如期发布么...",
+      "time": "2019-07-01 11:19:29",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">董秘您好，按规定7月15日以前必须发中报预告，请问能如期发布么？截止六月30日股东人数多少？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(隆利科技SZ300752)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者您好，公司会按照相关规定发布2019年上半年的业绩预告，敬请持续关注公司公告，谢谢！公司截止6月28日的股东人数为11671，谢谢您的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8863590.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8863590.shtml"
+    },
+    {
+      "title": "投资者提问：您好，具了解，融捷股份董事长吕向阳，在27日，以个人名义增持5...",
+      "time": "2019-07-01 11:19:35",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">您好，具了解，融捷股份董事长吕向阳，在27日，以个人名义增持50万股，是否有进一步增持的意愿，大股东增持，可以提振股价，以及中小股东的信心，强烈建议进一步增持<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(融捷股份SZ002192)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，该增持未提前通知公司，公司未知其增持计划，该增持未达到规则规定的披露标准；如增持达到规则规定的披露标准，公司将根据规则规定履行信息披露义务，谢谢<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8863591.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8863591.shtml"
+    },
+    {
+      "title": "投资者提问：您好，想问下董事长吕向阳同志在没有公告的前提下，进行增持，是否...",
+      "time": "2019-07-01 11:19:48",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">您好，想问下董事长吕向阳同志在没有公告的前提下，进行增持，是否合规<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(融捷股份SZ002192)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，该增持未提前通知公司，公司未知其增持计划，该增持未达到规则规定的披露标准；如增持达到规则规定的披露标准，公司将根据规则规定履行信息披露义务，谢谢<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8863599.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8863599.shtml"
+    },
+    {
+      "title": "投资者提问：2018年度业绩补偿款议案被否，为何迟迟不见重新审议表决？关于...",
+      "time": "2019-07-01 11:20:03",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">2018年度业绩补偿款议案被否，为何迟迟不见重新审议表决？关于融达锂业105万吨二期项目现在进展如何，请详情说明，谢谢！另外公司高投入的融达锂业复工，融捷集团又加大投入锂电相关下游产业，可预计的未来大股东融捷集团和上市公司会有高频关联交易，难免会让人联想到存在掏空上市公司优质资产的可能，对此请问大股东在一年内有没有资产注入的意向？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(融捷股份SZ002192)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，2018年度业绩补偿事项公司将择机提交股东大会审议，请留意公司公告；融达锂业105万吨\/年扩产项目正按政府相关工作程序进行；公司与融捷集团均在锂电产业链上下游环节布局，重点环节和业务不相同，主要是能够发挥产业互补上下游产业链互补和协同，公司与关联方的关联交易均按规则履行了决策程序和信息披露义务，不存在投资者所提掏空上市公司优质资产情形；公司未知大股东资产注入计划和意向。谢谢<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0501626.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0501626.shtml"
+    },
+    {
+      "title": "A股蹊跷收购藏玄机 大股东套现一次又一次“黄了”",
+      "time": "2019-07-01 10:54:27",
+      "src": "新浪财经综合",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/sinacn20190701ac\/200\/w500h500\/20190701\/3c3d-hzfeken5035125.jpg",
+      "content": "<p class=\"art_p\">证券时报记者 孙亚华 王基名<\/p>\n<p class=\"art_p\">近日，八菱科技控股股东的又一大手笔股权转让再次宣告失败，而其另外一笔正在进行中的减持计划也因捆绑交易和业务问题被深交所问询。证券时报e公司发现，其交易对手方王安祥似乎并不太“安详”，所控制的弘天生物从新三板摘牌后，便马不停蹄地介入A股市场，仅在2018年，就有八菱科技、朗源股份和*ST罗普三家上市公司拟收购王安祥旗下的子公司股权，而且“套路”相似。<\/p>\n<p class=\"art_p\">2018年以来可谓八菱科技的多事之秋，为了维护股价，八菱科技连续出招，并被市场给予“蹭热点”的嗜好。而手握绝大多数量股权的大股东则一路减持，特别是实控人夫妇连番“套现”操作猛如虎，只可惜不仅招来监管机构连番问询，减持也接连失败。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/spider20190701\/467\/w806h461\/20190701\/8359-hzfeken5034192.jpg' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\"><strong>连续“套现”失败<\/strong><\/p>\n<p class=\"art_p\">近日，八菱科技实控人夫妇与车行天下（惠州）投资发展有限公司（以下简称车行天下）6.23亿元的股权转让交易宣告终止，这已经是八菱科技控股股东近段时间来第二次股权转让失败。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/spider20190701\/245\/w602h443\/20190701\/d187-hzfeken5034336.jpg' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">这份收购还要追溯到半年前，2018年12月18日八菱科技公告称，公司实际控制人杨竞忠、顾瑜夫妇拟以协议转让方式将两人持有的3116.6万股公司股份（占公司总股本的11%）转让给车行天下，转让价格设为20元\/股，总金额约6.23亿元。对于上述转让的目的，八菱科技称“主要是为了降低股票质押风险”。<\/p>\n<p class=\"art_p\">根据当时的协议，上述股权转让有效期为180天。截至协议到期日（2019年6月15日），杨竞忠、顾瑜尚未收到车行天下的股份转让款，也未办理股票过户登记手续，且各方未就股份转让协议进行延期，亦未签署补充协议，该股份转让协议自动终止。<\/p>\n<p class=\"art_p\">工商资料显示，车行天下2017年10月份成立，经营范围为股权投资、财务顾问等，在双方宣布拟股权转让时，车行天下注册资本仅为1000万元，深圳市中汇资本创新有限公司（以下简称中汇资本）为车行天下法人独资股东，中汇资本的股东为自然人韩伟净和李华章，韩伟净为控股股东，工商资料显示韩伟净在乌鲁木齐和谐安泰股权投资合伙企业（有限合伙）持股1.25%，为其执行事务合伙人，和谐安泰也是上市公司和而泰的第九大股东，一季报显示其在和而泰的持股占比为1.02%。另外，韩伟净曾任职浙江省巨化集团公司工程有限公司人事专员，2007年至2013年还和而泰监事会主席、人力资源主管，现为和而泰人力资源主管。<\/p>\n<p class=\"art_p\">深交所曾发出问询函，询问车行天下是否有能力支付这笔钱，公司的回答倒也直接：车行天下注册以来未开展实际业务，目前总资产0元，净资产0元。不过车行天下也表示，拟通过增资方式筹措本次股份收购资金。2018年12月26日，李强向车行天下增资9000万元，成为拥有车行天下90%股权的股东。不过公开信息中除了车行天下外，李强便无再多信息。<\/p>\n<p class=\"art_p\">记者致电八菱科技，公司工作人员表示：“主要是（车行天下）资金原因终止的。”她介绍，车行天下是一个刚成立的公司，本来想通过向李强的借款进行对八菱科技的股权收购，但李强资金链出现问题，便没有了下文。而且该工作人员表示，李强是沙钢股份的大股东之一。从公开信息看，李强在沙钢股份持股6.34%，不过李强持有的1.4亿股沙钢股份在4月29日已经全部被司法冻结，缘由是个人一笔约6500万元的债权债务纠纷。记者致电车行天下以及中汇资本公开电话，均被挂断。<\/p>\n<p class=\"art_p\">在此之前，八菱科技控股股东就已经有过一次股权转让失败经历。2018年10月17日，八菱科技还曾宣布，杨竞忠计划将持有的5666.62万股八菱科技（占总股本20%）转让给南京红太阳金控供应链有限公司，转让价格同样为20元\/股，有效期为2个月。公告当天（2018年10月17日）八菱科技的股价仅10.18元，相较于20元的拟转让价格溢价超96%。如此高的溢价也受到交易所关注问询。<\/p>\n<p class=\"art_p\">不过这笔11.33亿元的股权转让计划同样无疾而终，2018年12月18日八菱科技称，由于两个月有效期后双方都未续期以及未签订正式的转让协议，意向协议自动终止。然而，就在终止与南京红太阳股权交易的同一天，八菱科技便又宣布了与车行天下的股权转让意向。八菱科技工作人员称：“双方当初只是意向协议，后边并未签署正式的股权转让协议。”<\/p>\n<p class=\"art_p\"><strong>蹊跷的捆绑收购<\/strong><\/p>\n<p class=\"art_p\">八菱科技实际控制人杨竞忠、顾瑜夫妇及其一致行动人杨经宇合计持有公司股份约1.20亿股，占公司总股本的42.27%。<\/p>\n<p class=\"art_p\">虽然连续的股权转让均无疾而终，但杨竞忠、顾瑜转让股权的计划仍在继续，在八菱科技公布与车行天下的交易不久，还公布了另外一笔与王安祥的捆绑交易。<\/p>\n<p class=\"art_p\">2018年12月27日，八菱科技称，公司拟以不超过30亿元现金方式，向王安祥等购买弘天生物100%股权。同时，王安祥拟以6.09亿元价格，通过协议转让方式受让八菱科技控股股东杨竞忠持有的公司2833.3万股（约占公司总股本的10%）。<\/p>\n<p class=\"art_p\">2019年3月28日，八菱科技变更相关收购事项，收购弘天生物比例不超过51%，并于4月19日公告明确交易作价为9.08亿元。根据最新消息，杨竞忠累计已收到王安祥支付的股份转让款3亿元。据工商资料，弘天生物51%股权过户已于2019年5月28日完成了工商变更，八菱科技已成为弘天生物的第一大股东。<\/p>\n<p class=\"art_p\">八菱科技主营业务为散热器、保险杠等汽车部件，与弘天生物主营的细胞研发没有任何关系，且2018年八菱科技净利润727万元，同比下降94.61%，扣非净利润亏损84万元。另外年报显示，2018年年底时八菱科技期末货币资金余额仅剩约5.52亿元，在公司资金紧张的情况下，为何还要跨界并购该公司？同时控股股东捆绑上市公司股权套现交易，八菱科技的操作立即受到交易所问询和市场各方质疑。<\/p>\n<p class=\"art_p\">e公司记者在联系八菱科技时，其工作人员表示，公司看好细胞领域和弘天生物。另外该工作人员还称：“‘套现’只是外界的说辞，该交易之所以这样安排是为了保证在公司入主弘天生物后将其主要经营人员（王安祥）进行利益捆绑，以保证后续经营。”但弘天生物的业务也存在不少问题。<\/p>\n<p class=\"art_p\">弘天生物主营业务是为客户提供细胞委托培养和研发，主要通过医疗美容院等机构，向客户宣传推介。记者从其官网发现，该公司的主要业务是提供脐带、胎盘等储存服务，官网声称“脐带、胎盘干细胞可以修复受损组织，治疗人类80%的疾病，广泛用于多系统疾病治疗及美容保健抗衰。”<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/spider20190701\/78\/w1080h598\/20190701\/e840-hzfeken5034451.jpg' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">（图片来源于弘天生物官网内容）<\/p>\n<p class=\"art_p\">但是，当e公司记者致电国家卫健委时，相关人员表示，目前脐带、胎盘干细胞技术还处于科研探索阶段，并未批准进入临床使用，目前也没有一家医院可以合法使用。另外，弘天生物官网宣传文字，也明显有违《广告法》中“医疗广告不得含有表示功效、安全性的断言或者保证，不得说明治愈率或者有效率，不得使用无法验证的科研成果作证明材料”等规定。<\/p>\n<p class=\"art_p\">此外，弘天生物的官网主页还表示：“家庭成员需要使用细胞时，弘天生物根据医生的治疗需求，为您定制所需的干细胞制剂。”但国家卫健委等发布的《干细胞临床研究管理办法（试行）》规定，干细胞的临床研究，只能在具有与所开展干细胞临床研究相应的诊疗科目的三级甲等医院开展。<\/p>\n<p class=\"art_p\">那么，在国家禁止在非指定三甲医院进行干细胞研究的前提下，弘天生物如何进行干细胞制剂定制？对于这一疑问，e公司记者致电弘天生物，不过其业务人员只是一味回避，顾左右而言他。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">2018年9月，弘天生物高管、销售主管、行政管理人员等核心员工开展经营活动时因涉嫌诈骗被北京市海淀区公安局带离协助调查，上述人员之后被刑事拘留，目前转为取保候审。今年6月，深交所下发问询函，要求八菱科技解释弘天生物相关人员涉案的原因，涉嫌诈骗的行为是否与其向个人客户推介的细胞技术服务和健康管理服务相关。目前，八菱科技还未回复。<\/p>\n<p class=\"art_p\">但是当e记者致电八菱科技询问为何要并购一家有前科的公司时，工作人员称：“涉案只是部分员工，不影响弘天生物的状况。”但事实并非如此，八菱科技披露的资料显示，标的公司2018年第四季度营业收入下滑，净利润为负，主要是标的公司员工涉嫌诈骗受到公安机关拘留，标的公司的经营活动受到严重影响。<\/p>\n<p class=\"art_p\"><strong>王安祥不“安详”<\/strong><\/p>\n<p class=\"art_p\">与八菱科技类似，朗源股份也在2018年现金参股王安祥实控的公司，同时二股东也转让股权给王安祥获取资金。<\/p>\n<p class=\"art_p\">2018年5月29日，朗源股份二股东杨建伟，以1.26亿元的价格，向王安祥转让其持有的2360万股，占公司总股本5.01%。当日，朗源股份还与东方杰玛及其股东王安祥、金子亿、北京金定元投资基金管理有限公司签订协议，朗源股份使用自筹资金2.4亿元对东方杰玛进行增资，取得东方杰玛10.48%的股权。不久后，朗源股份支付投资款1.2亿元，东方杰玛完成了相关工商备案登记手续，东方杰玛成为朗源股份的参股公司。<\/p>\n<p class=\"art_p\">朗源股份经营范围包括生鲜水果、坚果、果干的种植、储存、加工、销售，而东方杰玛则是进行人体基因检测、化妆品销售等业务。并且在当时，朗源股份的财务状况并不理想，2018年上半年的净利润为759万元，同比降84%，期末现金余额仅3328万元。在现金流紧张的情况下，朗源股份还以巨额现金跨界参股与主营业务关联不大的公司，同时王安祥拟接棒朗源股份二股东股份进入上市公司，其操作与王安祥在八菱科技的操作极度相似。<\/p>\n<p class=\"art_p\">不过到了2018年12月，朗源股份表示，将收回1.2亿元的投资款，东方杰玛回购公司持有的10.48%的股权。本次交易完成后，公司不再持有东方杰玛的股权。对于撤资，朗源股份相关工作人员告诉e公司记者：“是双方协商的结果”。而双方当初为何做上述交易，工作人员则不愿多说。<\/p>\n<p class=\"art_p\">有市场人士称，朗源股份参股东方杰玛的行为更像是短期资金周转，再加上同时王安祥还受让了公司股权。也许在这两笔交易外，朗源股份与王安祥有另外的协议规定来满足公司资金的运作。<\/p>\n<p class=\"art_p\">另一家上市公司*ST罗普似乎也曾想进行类似的资本操作，*ST罗普经营铝合金门窗产品，也曾计划并购与其主营业务毫无关系的弘天生物。<\/p>\n<p class=\"art_p\">2018年7月23日，*ST罗普公告称，拟以现金方式收购王安祥所持有并控制的弘天生物部分股权。公司还在当天同时公告称，控股股东罗普斯金控股与皓玥科技及自然人高磊、林洪鼎签订股份转让协议，罗普斯金控股拟以5.36亿元的价格转让9801万股，占总股本的19.5%。彼时，*ST罗普也陷入经营困难，2017年和2018年分别亏损3896万元和1.53亿元，业绩同比大幅下滑。<\/p>\n<p class=\"art_p\">两个月后，上述交易双双终止，公开资料中并未查到皓玥科技等与王安祥有什么关系，但发生在王安祥及相关人员身上类似的套路，不知道是否真的只是巧合那么简单？<\/p>\n<p class=\"art_p\"><strong>股价危局与“蹭热点”<\/strong><\/p>\n<p class=\"art_p\">频繁的股权转让，八菱科技大股东给外界留下了急于套现的印象。这或许和2018年以来八菱科技公司的现状有莫大关系。<\/p>\n<p class=\"art_p\">八菱科技2011年上市，上市以来至2017年业绩连续增长，但从2018年起，八菱科技业绩出现断崖式下滑，全年净利润仅727万元，下降94.61%。另外，股票在2015年8月份创出90.50元的高位后便一路震荡下跌，在2015年12月八菱科技定增之时其股价也在40元左右位置，到了2018年10月17日八菱科技股票已经跌至9.42元的低位。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/spider20190701\/502\/w1038h264\/20190701\/db51-hzfeken5034553.jpg' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">（八菱科技2018年5月18日至今股价走势）<\/p>\n<p class=\"art_p\">伴随着股价的下跌，杨竞忠、顾瑜所质押股票面临爆仓风险，进入2018年后两人合计四次补充质押。而财务总监黄生田质押给东吴证券的300万股股票跌破预警线，八菱科技称存在被平仓的风险。根据Choice统计，八菱科技股东中，还有陆晖、黄志强等至今仍存在高比例质押状况。另外，在2015年到2017年期间，八菱科技推出了三期员工持股计划，持股均价约为31元，均处于亏损状态。<\/p>\n<p class=\"art_p\">证券时报e公司记者发现，八菱科技的股权高度集中在高管或关联人员手中，在2018年三季报中，八菱科技实际控制人杨竞忠、顾瑜夫妇合计持股42.16%，为公司第一和第二大股东；第三大股东黄志强持股6.59%，是公司副总经理；第四大股东陆晖最新持股5.49%，其曾在2014年参与认购上市公司的定增项目；第五、第六大股东为八菱科技的员工持股计划合计持股8.21%；第七大股东程启智、第八大股东文丽辉、第九大股东黄安定，工商资料显示均为八菱科技关联公司高管人员，第十大股东贺立德曾为八菱科技副总经理，以上四人合计持股8.13%。2018年三季度末，八菱科技前十大股东合计持股高达70.58%。<\/p>\n<p class=\"art_p\">为了维护股价，八菱科技在2018年以来也连续出招，并被市场给予“蹭热点”的嗜好。<\/p>\n<p class=\"art_p\">2018年1月27日，八菱科技宣布重大资产重组停牌，时隔半年后，公布拟以不超过20亿元100%收购一家具有S1超级跑车、Mycar纯电动车业务的公司。2018年5月17日在该重组搁浅的同时又宣布拟受让开隆投资所持宇量电池20%-30%股权，宇量电池为一家三元动力电池系统解决方案提供商。<\/p>\n<p class=\"art_p\">2018年6月5日，八菱科技又宣布拟进行股份回购，称将以不超过3亿元在半年内回购公司股票，回购价格不超过16.6元\/股，而八菱科技2018年半年报显示，公司账上的货币资金仅有5.39亿元。2018年12月，八菱科技公布股份回购情况，累计回购股份数量约1683万股，占公司总股本的5.94%，平均成交价格为12.58元\/股，成交金额约2.12亿元。而公司又欲将上述回购用作第四期员工持股计划，以21.42元\/股价格转让给员工。<\/p>\n<p class=\"art_p\">近半年来，八菱科技更是屡屡“蹭热点”。先是2018年底，八菱科技宣布拟收购弘天生物切入细胞科技领域；接着在今年1月29日，八菱科技又宣布拟入股深圳市王博智慧厕所革新技术有限公司，沾上“智慧厕所”概念；4月19日，八菱科技与科华生物、云南麻王生物签署了《增资协议书》，蹭上“工业大麻”概念。<\/p>\n<p class=\"art_p\">在众多动作加持以及大盘行情回暖多重作用下，八菱科技股票在2018年10月17日创出9.42的阶段低位后开始连续回升，彼时刚好是杨竞忠夫妇拟高溢价将部分股权转让给南京红太阳之时。八菱科技股价还在今年4月份与“工业大麻”结缘后一度达到34.58元高位。<\/p>\n<p class=\"art_p\">但在一系列维稳动作的背后是频繁的减持。除了实控人杨竞忠夫妇动辄数亿的减持计划之外，八菱科技股东陆晖和黄志强、财务总监黄生田以及之前的员工持股计划均发出减持计划或已经实际减持。不过4月22日以来八菱科技股价从34元高位一路下跌，最新股价为15.45元，公司的第四期员工持股计划也在近期宣告推迟。<\/p>\n<p class=\"art_p\"><\/p><p style=\"text-align:right;\" class=\"article-editor\">责任编辑：凌辰 SF179<\/p>",
+      "url": "https:\/\/finance.sina.cn\/fund\/jjgdxw\/2019-07-01\/detail-ihytcerm0494949.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/s\/2019-07-01\/doc-ihytcerm0494949.shtml"
+    },
+    {
+      "title": "快讯：沪指涨2.5%创指大涨3.5% OLED板块掀起涨停潮",
+      "time": "2019-07-01 11:12:00",
+      "src": "新浪财经",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\">新浪财经讯 7月1日消息，临近上午收盘，A三大股指持续冲高，创业板指大涨3.5%，两市涨停个股逾70只，题材板块多点开花，赚钱效应良好，截止发稿，沪指报3043.17点，涨2.51%；创指报1564.59点，涨3.53%。<\/p>\n<p class=\"art_p\">从盘面上看，消费电子、OLED、华为海思板块居板块涨幅榜前列，种植业、黄金板块跌幅榜前列。<\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/dpps\/2019-07-01\/detail-ihytcitk8862038.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/jsy\/2019-07-01\/doc-ihytcitk8862038.shtml"
+    },
+    {
+      "title": "十大券商:下半年最佳投资窗口打开 改革是核心驱动力",
+      "time": "2019-07-01 07:33:51",
+      "src": "新浪财经-自媒体综合",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\">券商中国&nbsp;王璐璐&nbsp;<\/p>\n<p class=\"art_p\">A股转机在6月逐步明确后，预计投资者对中美分歧、基本面、政策3方面的预期在7月还会持续改善，提振各类资金的风险偏好，今年第二轮上涨已经确立，指数有望冲击年内前期高点。<\/p>\n<p class=\"art_p\">资金有望持续净流入A股。中信证券判断不仅外资在7月预计依然能保持稳定的净流入状态，国内私募和个人等投资者也都有加仓的空间和动力。A股下半年最佳投资窗口已经打开。配置上，除了坚持价值底仓外，应进一步追求弹性，建议从成长龙头、华为产业链、中报可能超预期几个维度切入。<\/p>\n<p class=\"art_p\"><strong>海通证券：A股第二波上涨还要蓄势，看好券商和科技<\/strong><\/p>\n<p class=\"art_p\">①中美经贸关系缓和改善市场情绪，市场仍需消化贸易摩擦对基本面的影响，目前指数点位接近4月低点，但基本面更差。<\/p>\n<p class=\"art_p\">②上证综指2440点反转格局没变，牛市第一波上涨后的调整结束进入第二波上涨，需要基本面、政策面共振，如06年初、09年初。<\/p>\n<p class=\"art_p\">③这次第二波上涨仍需蓄势，市场反复震荡是战略布局窗口，着眼中期均衡配置核心资产与科技券商。<\/p>\n<p class=\"art_p\"><strong>国泰君安证券：战略配置期，打破观望和抱团困局<\/strong><\/p>\n<p class=\"art_p\">国泰君安认为G20标志中美经贸问题向好，信用修复已有流动性、政策基础，“绝佳战略配置期”将持续证真，这将打破观望和抱团困局。<\/p>\n<p class=\"art_p\">ERP盈利双拐点加速到来，优选风格。贸易战缓解、需求侧政策陆续推出、信用扩张疑虑的缓释，最终是盈利底的确认，都需要时间，这些逻辑会贯穿3季度始终，而证真的过程也就是配置的过程。因此，当前站在ERP和盈利的双重拐点位置，推荐两条主线：1）优选风格。消费看好盈利-估值性价比高的家电、食品饮料，成长看好通信、计算机。2）兼顾稳健性价比。看好低估值、稳盈利的银行、非银。<\/p>\n<p class=\"art_p\"><strong>华泰证券：中美贸易摩擦影响股市波动率，内部改革才是A股的核心驱动力<\/strong><\/p>\n<p class=\"art_p\">G20峰会中美贸易关系取得良好进展，符合市场预期，中美贸易摩擦对全球市场波动率影响较大，但市场核心矛盾已经从外部转向内部，包括经济基本面、对外开放和创新等改革进展、技术周期进展等才是A股继续上行的核心驱动力。<\/p>\n<p class=\"art_p\">盈利方面，7月15日之前创业板预告集中披露，5月工业企业在减税的推动下出现反弹；资金面上，6月股票市场回购明显加速，6月已回购金额是1-5月月均的4.4倍，2019年以来中美利差持续走阔，体现中美经济周期差正在收窄；配置方面，继续左手科技（电子，通信），右手券商，主题关注国企改革和经济开发区。<\/p>\n<p class=\"art_p\">　<strong>　光大证券：市场有望迎来短多<\/strong><\/p>\n<p class=\"art_p\">大势上，市场有望迎来短多。5月份，房地产投资增速转而向下带动固定资产投资增速下行，社消增速上行更多是因为价格因素，实际社消增速仍是下行，贸易总额增速下降意味着5月份的顺差增速上行更多的是“衰退式”顺差。与此同时，高频的周期九宫格也尚未看出周期复苏迹象，因此继续维持四季度经济复苏的下半年策略判断。与此同时，三季度结构性通胀下降将会重新打开“政策松”的空间，包商银行事件暂时平息下的风险溢价下降，也具有“政策松”的含义。总之，从政策经济周期的角度看，在经过二季度的结构性通胀上行扰动后，基本面有望再次回到“数据弱、政策松”的第四阶段，有助于市场上行。此外，大博弈如期阶段性缓和，有助于兑现下半年策略报告提出的“短多”逻辑。<\/p>\n<p class=\"art_p\">行业建议：1、周期：大博弈阶段性缓和，有助于短期改善市场对于经济周期的预期，周期股有望迎来博弈性机会，主要推荐石油化工产业链，考虑到我们认为年底才有望出现经济复苏，目前仍建议整体维持低配。2、消费：食品饮料的PB、PS估值分位已经上升至100%，PE分位也上升至83%，叠加大博弈阶段性缓和及结构性通胀下降，我们不建议继续增配食品饮料，建议增配性价比较高的汽车。3、成长：大博弈阶段性缓和、包商银行事件暂时平息以及结构性通胀的下降，均有助于中小创的赢面上升，短多中更看好中小创。4、金融地产：建议增配中小银行，券商或有博弈机会但难持续，保险四季度的机会大约三季度，暂时回避地产。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\"><strong>兴业证券：做多窗口，继续把握<\/strong><\/p>\n<p class=\"art_p\">做多窗口，继续把握。G20会议中美元首会面，达成不继续增加关税，重启经贸谈判。此举缓解了5月以来压制市场情绪、投资者风险偏好最大的因素，即中美博弈的不确定性。重启经贸谈判，关系转暖期，叠加企业中报空窗期、科创板推出平稳期等因素，市场将继续6月19日以来的做多窗口。<\/p>\n<p class=\"art_p\">建议相对、绝对收益者，均可适当提高仓位，把握本轮反弹主攻方向，即新兴成长、中报业绩超预期等方向。同时，核心资产独立牛市行情将继续，筹码不宜轻易转手，牢牢把握定价权。<\/p>\n<p class=\"art_p\">安信证券：焦点转内部，重心偏科技<\/p>\n<p class=\"art_p\">中期来看，市场在经历了美方的反复与施压手段后，目前对中美问题的长期性、复杂性、艰巨性，已经有了较为充分的心理准备。G20之后，市场下一个阶段关注焦点也将转向国内。对于目前的A股，“做好自己的事”才是决定下一阶段市场空间的核心因素，而目前我们在扩大开放和深化改革上均看到了积极的信号，如果减税降费，国企改革，金融供给侧改革，以及土地改革等政策能够推向纵深，A股有望迎来战略性大机会。<\/p>\n<p class=\"art_p\">从结构上看，G20中美缓和，美国企业可继续向华为供货，A股科创板开板、并购重组松绑，整个环境有利修复和提升科技股估值。行业配置重点关注通信、电子、计算机、券商等。<\/p>\n<p class=\"art_p\"><strong>广发证券：预计盈利底在Q2出现<\/strong><\/p>\n<p class=\"art_p\">中美贸易问题缓和改善盈利预期，预计盈利底在Q2出现。相较于18年：1）本次不加征新的关税暂未设定明确时限；2）华为或可重新采购美公司设备但仍未被移出实体清单；3）各方对于谈判的复杂性、不确定性和长期性都已有了更为理性的预期和更为充分的准备。中美贸易问题缓和有助于短期风险偏好提振，但事件上下波动对资本市场的中长期影响将趋于钝化。<\/p>\n<p class=\"art_p\">维持两个关键分歧的判断：1）经济虽然较弱，但上市公司盈利并不很糟糕；2）本轮贴现率下行的驱动力更大，A股金融供给侧慢牛。<\/p>\n<p class=\"art_p\">　<strong>　西南证券：市场处于难得的反弹窗口期<\/strong><\/p>\n<p class=\"art_p\">当前，市场处于难得的反弹窗口期。中美贸易阶段性和解后，市场情绪有望缓解，风险偏好将有所提升。接下去一段时间，成长股大概率会有更佳的表现。因此我们在考虑7月金股时，更多的加入了自主可控领域的标的，并且增加了通信、电子等领域的公司。总体而言，7月金股兼顾了白马与成长，更偏进攻一些。<\/p>\n<p class=\"art_p\"><strong>方正证券：持续性的反弹必须依赖于经济预期的修复<\/strong><\/p>\n<p class=\"art_p\">中美元首G20会晤后，中美贸易战存在着阶段性的缓解，市场风险偏好存在着修复的契机，但仅仅由风险偏好改善引发的反弹属于短期性质，可持续的反弹必须源于经济预期的修复甚至经济明确企稳的信号。<\/p>\n<p class=\"art_p\">中美贸易缓和后市场重新关注基本面，目前经济下行的信号比较明显，统计局公布的6月份PMI数据仅原材料库存小幅改善，2000亿商品25%的关税6月份刚刚加征，负面冲击将在三季度体现，国内经济存在着供需双弱的局面，不排除7月底的政治局会议其中鲜明的提出“稳增长”，后续政策的重点依然是财政政策，包括可能的预算内赤字调整以及专项债规模上调等，货币政策需要关注7月份是否释放降准信号以及美联储降息后的利率政策，综合来看，经济不确定性依然明显，股票市场正在上演的“抱团取暖”将会延续，抱团取暖的终结源于三个层面的信号：一是不确定性消除，如经济预期改善或者实质性企稳，或者中美贸易协议最终敲定；二是抱团品种业绩低于预期或者受到政策的冲击；三是抱团品种的估值出现泡沫化，超出估值区间。<\/p>\n<p class=\"art_p\">行业配置角度，中美贸易缓和后市场风险偏好存在着阶段性的修复，此前受到贸易战影响的通信、电子等行业存在阶段性的反弹契机，但由于经济不确定性仍较大，抱团取暖仍将延续，食品饮料、医药、金融等行业依然具备配置的机会。综合来看，7月份首选食品饮料、医药、非银等三个行业。<\/p><p style=\"text-align:right;\" class=\"article-editor\">责任编辑：陈悠然 SF104<\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/ggyj\/2019-07-01\/detail-ihytcitk8809558.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/marketresearch\/2019-07-01\/doc-ihytcitk8809558.shtml"
+    },
+    {
+      "title": "投资者提问：证监委刚刚发布了创业板公司并购重组改革方案，相信贵公司能用好相...",
+      "time": "2019-07-01 10:46:33",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">证监委刚刚发布了创业板公司并购重组改革方案，相信贵公司能用好相关政策。发展公司，壮大产业，力争跨越式发展。<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(中科信息SZ300678)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者，感谢您关注中科信息，感谢您提出的宝贵建议。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493048.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493048.shtml"
+    },
+    {
+      "title": "投资者提问：你好，请问贵公司在海洋风电有没有布局？贵公司在氢能方面有没有规...",
+      "time": "2019-07-01 10:46:57",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">你好，请问贵公司在海洋风电有没有布局？贵公司在氢能方面有没有规划？谢谢<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(吉电股份SZ000875)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，海上风电是公司新能源致力的领域，氢能也是未来努力的方向。感谢您对公司的关注！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493054.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493054.shtml"
+    },
+    {
+      "title": "投资者提问：到6月30日股东户数是多少？谢谢!",
+      "time": "2019-07-01 10:48:41",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">到6月30日股东户数是多少？谢谢!<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(中新赛克SZ002912)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，截止6月30日，公司股东人数为7,591人。谢谢！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855275.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855275.shtml"
+    },
+    {
+      "title": "投资者提问：请问pi膜进展怎么样，有没有具体时间？",
+      "time": "2019-07-01 10:48:48",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问pi膜进展怎么样，有没有具体时间？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493056.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493056.shtml"
+    },
+    {
+      "title": "投资者提问：通信大会上中国移动表态明年地级市实现5G商用，千兆宽带覆盖大部...",
+      "time": "2019-07-01 10:48:48",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">通信大会上中国移动表态明年地级市实现5G商用，千兆宽带覆盖大部分城区，请问公司现有设备能满足5G时代需求吗，还有OLT设备升级，网络可视化设备是否也要同步升级<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(中新赛克SZ002912)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，感谢对公司的关注，网络可视化设备将根据业务部门的实际需求逐步进行配套。同时，公司业务发展情况请关注定期报告披露内容。谢谢！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855271.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855271.shtml"
+    },
+    {
+      "title": "投资者提问：啥时候试机啊",
+      "time": "2019-07-01 10:48:57",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">啥时候试机啊<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493069.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493069.shtml"
+    },
+    {
+      "title": "投资者提问：2季度都快过完了，pi膜到底什么情况啊。",
+      "time": "2019-07-01 10:49:17",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">2季度都快过完了，pi膜到底什么情况啊。<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855250.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855250.shtml"
+    },
+    {
+      "title": "投资者提问：请问贵公司的pi膜进展情况如何?第二季度的试产是否能顺利进行？...",
+      "time": "2019-07-01 10:49:27",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问贵公司的pi膜进展情况如何?第二季度的试产是否能顺利进行？有没有要顺延至第三季度才能试产的可能?谢谢！<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855257.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855257.shtml"
+    },
+    {
+      "title": "投资者提问：2019年二季度即将结束，pi膜生产线能如期投产吗？",
+      "time": "2019-07-01 10:49:33",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">2019年二季度即将结束，pi膜生产线能如期投产吗？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493044.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493044.shtml"
+    },
+    {
+      "title": "投资者提问：请问贵公司有点时间观念嘛？公告黄金膜二季度试产，为什么马上三季...",
+      "time": "2019-07-01 10:49:40",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问贵公司有点时间观念嘛？公告黄金膜二季度试产，为什么马上三季度的都没有消息？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493046.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493046.shtml"
+    },
+    {
+      "title": "投资者提问：公司pi膜在第二季度试产，现第二季度已经快过了，试产结果怎么样...",
+      "time": "2019-07-01 10:49:48",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">公司pi膜在第二季度试产，现第二季度已经快过了，试产结果怎么样，为什么都没消息？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司聚酰亚胺膜项目2#线已投料试车，计划于2019年7月初对 1#线进行投料试车。详细情况请参阅公司6月29日《关于聚酰亚胺膜项目进展情况的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0493053.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0493053.shtml"
+    },
+    {
+      "title": "投资者提问：尊敬的董秘，贵司透明背板产品迎合了双面组件的发展趋势。除了贵司...",
+      "time": "2019-07-01 10:50:46",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">尊敬的董秘，贵司透明背板产品迎合了双面组件的发展趋势。除了贵司生产透明背板外，在市场上是否有其他企业也生产透明背板产品？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(中来股份SZ300393)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">感谢您的关注，公司是国内首家透明背板产业化生产及批量供货的厂家。谢谢！<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855268.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855268.shtml"
+    },
+    {
+      "title": "投资者提问：请问贵公司最近有减持计划吗？谢谢!",
+      "time": "2019-07-01 10:51:06",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问贵公司最近有减持计划吗？谢谢!<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(国风塑业SZ000859)：<\/p><div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好。公司控股股东计划继续增持，详细情况请参阅6月19日《关于控股股东增持公司股份进展暨增持计划延期的公告》。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8855231.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8855231.shtml"
+    },
+    {
+      "title": "大港股份收问询函 要求说明是否利用商誉业绩大洗澡",
+      "time": "2019-07-01 09:59:00",
+      "src": "中国证券报",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\">原标题：大港股份收问询函 要求说明是否存在利用商誉进行业绩“大洗澡”情形 来源：中国证券报<\/p>\n<p class=\"art_p\">中证网讯（记者 康曦）7月1日，大港股份（002077）收到深交所年报问询函，要求公司说明报告期内扣非后净利润大幅下降的原因，以及是否存在利用形成商誉相关资产在以前年度进行利润调节以及在本期进行业绩“大洗澡”的情形等。<\/p>\n<p class=\"art_p\">问询函显示，公司2018年实现营业收入16.89亿元，同比增长28.94%；实现归属于上市公司股东的扣除非经常性损益的净利润-5.91亿元，连续两年为负，同比下降18758.47%；经营活动产生的现金流量净额为-1.5亿元，同比增长361.4%。<\/p>\n<p class=\"art_p\">深交所要求公司结合业务开展情况、销售政策、行业周期、市场供求情况、产品类别等补充说明报告期内扣非后净利润大幅下降的原因；并说明2018年度经营活动产生的现金流量净额大幅增长的原因及经营活动产生的现金流量净额与营业收入、净利润增长幅度不配比的原因，市场环境是否发生重大变化；最后，补充说明公司扣非后净利润连续两年为负的原因及相应的解决措施。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">公司2016年收购艾科半导体形成5.71亿元商誉，报告期内，公司计提商誉减值准备2.45亿元。<\/p>\n<p class=\"art_p\">深交所要求公司核实艾科半导体商誉所在资产组经营业绩的真实性，并结合相关行业情况及政策、主要产品情况、经营业绩及变动趋势、业绩承诺完成情况（如有）、盈利预测等方面，说明公司以前年度商誉减值准备计提的充分性和准确性，以及在2018年集中计提大额商誉减值准备的原因及合理性，相关会计估计判断和会计处理是否符合《企业会计准则》的规定；说明是否存在利用形成商誉相关资产在以前年度进行利润调节以及在本期进行业绩“大洗澡”的情形。<\/p>\n<p class=\"art_p\">报告期末，公司短期借款余额19.1亿元，短期偿债压力较大。深交所要求结合融资计划、资金使用安排等说明公司偿付短期债务的计划。以及说明公司研发投入金额同比增长但研发人员同比减少的原因。<\/p><p style=\"text-align:right;\" class=\"article-editor\">责任编辑：陈悠然 SF104<\/p>",
+      "url": "https:\/\/finance.sina.cn\/2019-07-01\/detail-ihytcerm0483108.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/cn\/2019-07-01\/doc-ihytcerm0483108.shtml"
+    },
+    {
+      "title": "穆迪给予泰禾集团美元票据Caa1评级 展望为稳定",
+      "time": "2019-07-01 10:33:00",
+      "src": "新浪财经",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/transform\/116\/w550h366\/20180418\/fw0w-fzihnep5208648.png",
+      "content": "<p class=\"art_p\">新浪财经讯 穆迪投资者服务公司给予Tahoe Group Global（Co．，）Limited（泰禾集团全资子公司）发行的高级无担保票据Caa1评级，该债券由泰禾集团提供担保（B3，稳定）。评级展望为“稳定”。<\/p>\n<p class=\"art_p\">泰禾集团计划拟将该票据发行募集的资金用于企业日常经营。<\/p>\n<p class=\"art_p\">“这期债券发行对泰禾集团未来12-18个月的信用情况不会产生实质影响，还将有助于其解决短期再融资需求。“穆迪公司副总裁兼高级分析师约瑟芬·何（Josephine Ho）如是说。<\/p>\n<p class=\"art_p\">穆迪的预测模型显示，泰禾集团的债务杠杆率（以“收入\/调整后债务规模”衡量）有望在接下来的12-18个月间从2018年的21%上升至25-30%。在公司对债务把控力度增强、预期收入增长的因素推动下，企业的利息覆盖倍数（以“调整后EBIT\/利息”衡量）有望在同期由1.3倍提升至1.5-1.7倍。然而，企业整体的信用状况与同行业其他企业相比仍有差距，评级模型将企业的评级定位于B级别中偏低的位置。<\/p>\n<p class=\"art_p\">泰禾集团B3的主体评级整体反映了与众多B级别的中国地产开发商相比，企业拥有较大的业务规模、悠久的企业经营历史，及优质且遍布中国各地的土地储备资源。<\/p>\n<p class=\"art_p\">但同时，这个级别也说明了公司相对紧张的流动性情况、对信托贷款较大的依赖度，以及偏弱的财务指标。<\/p>\n<p class=\"art_p\">考虑到境外发债主体与泰禾集团的结构从属风险，本期高级无担保票据的评级定为Caa1，较泰禾集团的主体评级低一个级别。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_klm190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">结构性从属风险是指泰禾集团大部分索赔的资金来自于其正常运营的子公司，当企业进入破产清算程序后，子公司的索赔顺序先于控股公司。此外，控股公司缺乏结构从属关系的重要因素，因此控股公司的索赔预期回收率将会降低。<\/p>\n<p class=\"art_p\">评级展望调整为“稳定”反映了穆迪预期泰禾集团将继续积极主动的管理其流动性情况，并对其到期债务进行再融资。<\/p>\n<p class=\"art_p\">中期来看，泰禾集团的主体评级有望通过以下两点得到提升。其一，公司改善其流动性水平，比如将现金\/短期债务比例持续稳定在0.8-1倍及以上；其二，公司改进其信用指标，如，持续将利息覆盖及以上倍数提高至1.5倍，并将收入\/调整后债务规模保持在高于40%的水平。<\/p>\n<p class=\"art_p\">同样的，主体评级在出现以下指标恶化时，将承受调降评级的压力。其一，泰禾集团的整体流动性情况恶化；其二，公司的合约销售额与经营性现金流大幅走弱； 其三，公司融资能力被大幅削弱。当公司的利息覆盖倍数持续性低于1.0倍，评级模型将提示其降级风险。<\/p>\n<p class=\"art_p\">此次评级的主要方法论由穆迪的全球住宅建筑与房地产开发板块于2018年1月发布，具体请参阅评级方法页面www.moodys.com获取此方法的副本。<\/p>\n<p class=\"art_p\">泰禾集团有限公司于2010年在深圳证券交易所上市。公司于1996年在福建省福州市开始其第一个住宅物业项目，公司主营业务集中在住宅物业开发，辅以商业地产项目开发。截至2018年12月31日，公司可售土储面积总计约1600万方。<\/p><p style=\"text-align:right;\" class=\"article-editor\">责任编辑：陈悠然 SF104<\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/ssgs\/2019-07-01\/detail-ihytcitk8850159.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/s\/2019-07-01\/doc-ihytcitk8850159.shtml"
+    },
+    {
+      "title": "上半年销售头部房企仍高增长  绿城、泰禾掉出前二十",
+      "time": "2019-07-01 10:44:00",
+      "src": "新浪财经",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/finance\/transform\/471\/w550h721\/20190701\/769f-hzfeken4936882.png",
+      "content": "<p class=\"art_p\"><span style=\"font-family: KaiTi_GB2312, KaiTi;\">新浪财经上市公司研究院 大眼楼管\/肖恩<\/span><\/p>\n<p class=\"art_p\">新浪财经讯 6月30日，各主要地产数据服务商共公布了上半年各主流房企的半年销售业绩情况，其中克而瑞提供了三种销售数据，包括操盘数据、全口径数据以及权益数据。<\/p>\n<p class=\"art_p\">以克而瑞统计的上半年房企的全口径数据来看，排名前20的房企分别为：<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/finance\/transform\/471\/w550h721\/20190701\/769f-hzfeken4936882.png' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">与去年同期数据相比，销售前20名的房企变化不大，只有金地集团及中梁控股新进前20，而被挤出前二十的两家房企分别为泰禾集团和绿城中国。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">值得注意的是，在“房住不炒”大背景下的2019年，头部房企的销售业绩依然可圈可点，除碧桂园和中国恒大同比下降5.56%、7.06%之外，其余头部房企的销售业绩均录得同比增长，TOP20平均增速达到20.8%。其中，中海地产的增速最快达39.79%，前20中，增速超过30%的多达8家。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/finance\/transform\/173\/w550h423\/20190701\/00ae-hzfeken4937754.png' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">今年新进前20的金地集团上半年销售856亿元，同比增长35.23%，中梁控股上半年销售681亿元，同比增长13.16%。掉出前20的泰禾集团，今年销售456.7亿元，位列37位，同比下降30.27%，绿城中国上半年销售495.5亿元，同比下降35.57%。<\/p>\n<p class=\"art_p\">值得注意的是，根据今年及去年的表现，规模前三房企尽管仍然是碧桂园、万科及中国恒大，但第一阵营的销售增速表现却难称靓丽。形成鲜明对比的是，规模在1000-3000亿元之间的房企销售增速却普遍表现亮眼，包括旭辉、阳光城、世茂房地产、新城控股等房企。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/finance\/transform\/109\/w550h359\/20190701\/dd3f-hzfeken4939756.png' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>\r\n\t\t\t\t\t\t\t\t\n<p class=\"art_p\">房企分化明显已成业内共识，即使是在头部房企阵营也不例外。但整体看，行业依然处在上升通道中，根据此前统计局公布的今年来商品房销售增速数据看，销售增速同比有下滑趋势，但仍为此在零轴上方，商品房销售整体规模依然在往更高的水平爬升，2019年或将在此突破2018年12.2万亿的峰值再创新高。<\/p>\n\r\n\t\t\t\t\t\t\t\t\t<figure class=\"art_img_mini j_p_gallery\">\r\n\t\t\t\t\t\t\t\t\t\t<img class=\"art_img_mini_img j_fullppt_cover\"  src='https:\/\/n.sinaimg.cn\/finance\/transform\/72\/w550h322\/20190701\/0f03-hzfeken4940500.png' alt=\"\" \/>\r\n\t\t\t\t\t\t\t\t\t\t<h2 class=\"art_img_tit\"><\/h2>\r\n\t\t\t\t\t\t\t\t\t<\/figure>",
+      "url": "https:\/\/finance.sina.cn\/stock\/ssgs\/2019-07-01\/detail-ihytcerm0491220.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/observe\/2019-07-01\/doc-ihytcerm0491220.shtml"
+    },
+    {
+      "title": "杨德龙：下半年投资机会依然在白龙马股上",
+      "time": "2019-07-01 10:36:00",
+      "src": "新浪财经",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\">今年上半年， A股市场在一季度出现了大幅上涨，提前实现了我在1月2号提出的2019年“十大预言”，即在影响市场的利空因素边际改善之后，A股市场会重拾升势，重回3000点之上。年初我提出这个观点的时候，市场认可的人很少，当时市场情绪低迷，上证指数在2400多点，但过了春节，A股市场展开了一轮大幅上涨，上证指数在短短一个季度的时间里就回到了3000点之上，最高接近3300点。<\/p>\n<p class=\"art_p\">到二季度，A股市场再次出现了较大幅度的调整，上证指数回调到2800多点，投资者的情绪也受到较大的影响。“五穷六绝七翻身”，经过调整之后，A股市场的下半年的走势已经具备了一定的基础，对于下半年的行情，投资者要有信心，应该积极挖掘白龙马股的机会。<\/p>\n<p class=\"art_p\">第一，当前市场的估值整体处于较低的水平，对长期资金具备一定的投资吸引力，目前沪深300的市盈率不到12倍，上证50的市盈率只有10倍，上证指数的市盈率也不到15倍，和全球主要资本市场相比，现在A股市场无疑是处于估值的洼地。即使和A股历史上的估值相比，当前的估值也是在历史大底的位置，估值低是长线资金配置的最好理由。<\/p>\n<p class=\"art_p\">第二，外资在这两年持续流入到A股市场，虽然四、五月份外资出现了一定的净流出，但是从6月份开始外资重新转向净流入。A股在近两年先后加入MSCI、富时罗素国际指数等世界上最大的国际指数体系，很多外资的对冲基金业绩比较基准就是这些国际指数，因此在A股纳入这些国际指数之后，外资对A股的配置需求将进一步增加。现在外资持有A股的资金量大概是1.6万亿，和A股50多万亿的市值相比，占比不到3%，将来外资对于A股的配置还会进一步增加。随着A股正式纳入富时罗斯国际指数，在MSCI新兴市场指数的纳入因子从5%提到10%，预计下半年外资还将加速流入A股市场，成为A股市场反弹的动力。<\/p>\n<p class=\"art_p\">第三，从政策面来看，下半年还会继续实施宽松的货币政策和积极的财政政策。<\/p>\n<div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">第四，预计下半年在投资、消费方面还会有所起色，经济大幅下行的可能性并不大。其次从外围市场来看，美联储在6月份议息会议中虽然没有降息，但是释放了降息的预期。而欧洲央行也明确表示，可能会采取降息和债券回购等手段来刺激经济增长。因此在货币政策方面，全球央行可能会迎来降息潮，这无疑会给中国央行带来更大的宽松空间，甚至不排除降息的可能性。一般在全球央行降息的初期，资本市场，特别是新兴市场，都会有相对较好的表现。<\/p>\n<p class=\"art_p\">综上可以看出，今年下半年资本市场依然有比较大的投资机会，特别是这些利空因素一旦改善或者消除，A股市场可能会出现大幅上升，甚至可能再创年内的新高。<\/p>\n<p class=\"art_p\">值得注意的是，现在A股市场分化严重，我一直看好的白龙马股，特别是像茅台等消费白龙马股，股价不断创出历史新高，而绩差股和题材股则无人问津。下半年同样要采取价值投资的策略，抓住白龙马股的机会，做好公司的股东，这样才能真正的抓住市场反弹的机会，绩差股和题材股在下半年可能还会继续被边缘化。<\/p>\n<p class=\"art_p\">2019年是一轮慢牛长牛的起点，也是A股市场黄金十年的开始。过去十年是中国楼市的黄金十年，随着房地产调控的加强，房价的高企，以及投资房产的预期回报率下降，房地产的成交量也出现了大幅萎缩，房子的金融属性在逐步的减弱，居住属性成为决定房地产价值最主要的因素。在楼市的黄金十年逐步接近尾声之际，大类资产配置逐步偏向资本市场，A股市场将迎来黄金十年。<\/p>\n<p class=\"art_p\">（作者系前海开源基金首席经济学家杨德龙）<\/p>",
+      "url": "https:\/\/finance.sina.cn\/fund\/jjsy\/2019-07-01\/detail-ihytcerm0489082.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/money\/fund\/jjsy\/2019-07-01\/doc-ihytcerm0489082.shtml"
+    },
+    {
+      "title": "投资者提问：请问华天的湘菜产业现在进展如何？谢谢",
+      "time": "2019-07-01 10:14:05",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问华天的湘菜产业现在进展如何？谢谢<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(华天酒店SZ000428)：<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者，您好！湘菜产业经营情况持续好转。谢谢。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8845184.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8845184.shtml"
+    },
+    {
+      "title": "当代置业：2亿元竞得湖北仙桃市450亩住宅用地",
+      "time": "2019-07-01 10:15:00",
+      "src": "中国网地产",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\">原标题：当代置业：2亿元竞得湖北仙桃市450亩住宅用地    来源：中国网地产<\/p><p class=\"art_p\"><p class=\"art_p\">中国网地产讯 28日晚间，当代置业发布公告称，2019年6月28日，当代置业间接全资附属公司仙桃原绿通过武汉光谷联交所组织的公开挂牌出售程序竞得湖北交投仙桃城市发展有限公司50%股权，总代价为2.0925亿元。仙桃原绿（作为买方）与卖方订立股权转让协议。<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">湖北交投仙桃城市发展有限公司目前持有地块土地使用权，地块位于中国湖北省仙桃市南城新区，全部作为住宅用途，总占地面积约为450亩。收购事项完成后，归属当代置业及其附属公司股权将为50%，而湖北交投仙桃城市发展有限公司将成为当代置业拥有50%权益的合营企业。<\/p><p class=\"art_p\">根据股权转让协议，协议生效后5个营业日内，仙桃原绿须向卖方支付第一笔付款6277.5万元（占总代价30%）。于股权转让协议生效后一年内，仙桃原绿须分别向卖方支付第二笔付款6277.5万元（占总代价30%）及第三笔付款8370万元（占总代价40%）。<\/p><p class=\"art_p\">公告披露，第二笔及第三笔付款将被视为递延付款，而仙桃原绿应向卖方支付按自股权转让协议生效日期起至实际付款日期止的同期银行贷款利率计算利息。经卖方批准的法律及有效担保应由当代置业及其附属公司第二笔及第三笔付款提供。目前拟以当代置业及其附属公司内部资源拨付代价。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/hk\/2019-07-01\/detail-ihytcitk8846343.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/hk\/2019-07-01\/doc-ihytcitk8846343.shtml"
+    },
+    {
+      "title": "一张假照片惹祸 这位投行人员饭碗没了！执业资格被注销",
+      "time": "2019-07-01 10:16:01",
+      "src": "金融界",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/spider20190701\/45\/w480h365\/20190701\/55c6-hzfeken4848017.jpg",
+      "content": "<p class=\"art_p\">原标题：一张假照片惹祸 这位投行人员饭碗没了！执业资格被注销    来源：金融界<\/p><p class=\"art_p\"><p class=\"art_p\">上市公司巨额财务造假，中介机构扮演了怎样的角色？<\/p><p class=\"art_p\">近日，中国证券业协会披露一起自律监管措施决定，时任申万宏源（000166，诊股）承销保荐的一名项目人员，因拍摄照片“图文不符”而导致注销执业证书、三年不受理执业注册申请的纪律处分。乍看之下并非重大违规，但细究内容，一张虚假照片却在*ST百特（002323，诊股）重大财务造假案中扮演了重要角色。<\/p><p class=\"art_p\"><p class=\"art_p\"><img src='https:\/\/n.sinaimg.cn\/spider20190701\/45\/w480h365\/20190701\/55c6-hzfeken4848017.jpg' img-size=\"480,365\" ocr-text=\"&lt;&gt;cLu&lt;VE&gt;&lt;AA&gt;oCa&lt;on&lt;Ol&lt;E&lt;lT关于日乐自随定$j=Z不的j里&amp;一羽G那农$业孤战省工限风为中膝上生总之内确孩二碑之仿生一女中国证世协含&lt;E$SJL$$Oh*&lt;SLY%CQmSuTTjC&lt;T&lt;&gt;zzwI&lt;&lt;j力tz&amp;=wM&lt;L&lt;A&lt;JlJx&gt;uH&gt;之司子二一l乡小B-子不-千我幽甲则中一一了人页当亏如古芯古以世也过四人本一中还出一了入是的时每近电*多却般学业影体一为&lt;-C&gt;y=&lt;SSuE=x&lt;C而yfJ=S#&gt;日H&lt;&lt;TEt&lt;!西D叫Ac家氏rYRf自律眼传了z一企上-一兆飞是这的-时元一一入飞一了二四飞不一莱一个内是型了己飞一关个无实一小不人了-不一找一可欧下由了印公一力川充分些古抄市了至忧呢依免卜公毋们门队性立打片而忙色也习印百丹一小又一否美二-个一于一了上书一长吓口心之--元内一的上迁电的一日一一ZxrJx=+*yW&lt;&gt;n+Pl$&lt;c+&gt;?yM&lt;\"><\/p><\/p><p class=\"art_p\">去年7月5日，证监会网站发布信息称，雅百特为了实现重组上市业绩承诺，2015年至2016年9月通过虚构境外工程项目、虚构国内及出口建筑材料贸易、伪造工程合同和销售回款等方式虚增营业收入合计约5.8亿元，虚增利润约2.6亿元。当日晚间，深交所宣布，已正式启动对该公司的强制退市机制。<\/p><p class=\"art_p\">就此次财务造假案涉及的中介机构来看，金元证券作为*ST百特资产重组财务顾问，被采取“罚一没三”的行政处罚，共计罚没4000万元。众华会计师事务所被责令改正，罚没金额174万元。而从此次申万宏源承销保荐业务人员被注销资格来看，反映了监管对于中介机构配合上市公司财务造假的“零容忍”。<\/p><p class=\"art_p\">伊斯兰堡公交站变身“木尔坦项目”<\/p><p class=\"art_p\">在历次上市公司财务造假、虚假陈述等大案要案中，中介机构往往责无旁贷。但因在项目中编造虚假信息而导致监管处罚，类似的情况并不多见。这一次中证协采取自律措施的对象，是时任申万宏源承销保荐的业务人员周乐，而涉及造假内容，却是一张“图文不符”的照片。<\/p><p class=\"art_p\">决定中显示，申万宏源证券承销保荐是*ST百特2016年非公开发行股票的保荐机构，周乐为项目协办人、承揽人。应证监会发行部的核查要求，2016年9月28日至30日，周乐会同金元证券、众华会计事务所、君泽君律师事务所等相关人员前往巴基斯坦对*ST百特木尔坦项目进行现场走访。<\/p><p class=\"art_p\">导致周乐被认定弄虚作假的正是来源于此次现场走访。决定中显示，周乐拍摄的“木尔坦项目照片”是本次走访过程获取的重要核查证据。根据中铁一局巴基斯坦分公司提供的《木尔坦公交专线情况说明》，周乐拍摄的“木尔坦项目照片”并非木尔坦公交专线的图片，而是伊斯兰堡公交专线站台的图片。<\/p><p class=\"art_p\">基于此，中证协认为，周乐以伊斯兰堡公交车站照片冒充木尔坦项目现场核查照片，导致申万宏源出具的《关于江苏雅百特科技股份有限公司木尔坦地铁公交项目之专项核查报告》存在虚假陈述。周乐在非公开发行项目现场核查过程中弄虚作假，编造虚假信息，未做到诚实守信、勤勉尽责。<\/p><p class=\"art_p\">对此，中证协给出注销执业证书（一般证券业务）、三年内不受理执业注册申请的纪律处分。在告知后，周乐向中证协提出申辩意见，但从最终结果来看，其申辩未能得到中证协的采纳。中证协最终维持了此前纪律决定，且该次纪律处分录入中证协证券业从业人员诚信信息管理系统和中国证监会诚信档案数据库。<\/p><p class=\"art_p\">配合*ST百特重大财务造假<\/p><p class=\"art_p\">就自律措施本身而言，可能会有人质疑：一张照片导致资格注销，是否是大题小做？答案显然是否定的。<\/p><p class=\"art_p\">自律措施决定中所涉上市公司雅百特，现已为*ST百特，目前已在退市的边缘。去年深交所7月5日晚间宣布，已正式启动对该公司的强制退市机制，公司股票存在被暂停及终止上市的风险。该公司股票自2018年7月6日复牌起的30个交易日内，证券简称将变更为“*ST百特”。<\/p><p class=\"art_p\">根据*ST百特披露的关于公司股票存在重大违法强制退市风险提示性公告，*ST百特涉嫌构成违规披露、不披露重要信息罪，被中国证监会移送公安机关。目前公司处于停牌状态，待人民法院对公司作出有罪裁判且生效后，依据深交所退市新规判断，是否构成重大违法强制退市情形。<\/p><p class=\"art_p\"><p class=\"art_p\"><img src='https:\/\/n.sinaimg.cn\/spider20190701\/100\/w480h420\/20190701\/9864-hzfeken4848163.jpg' img-size=\"480,420\" ocr-text=\"S可百特关于公司股票存在重大违法强制退市风险提示性公告为年历日公己三中国工秀石里尼以下-中互正台分--直的为-长母-查&amp;u相飞自白-个亩仍到一一&amp;一一队一的一了O芬把百污门但沙分石因个自印品中至二齐泪句工玫一一克u年这门-够江-下而你-红-公司一压中轻妆一位民芒对现听创少咋权上市坟如必年了习广打-人剑马交一所上西己三还巨市二冠力志人影述马交以-公可及已飞见伊公告杏叮上-点关史准与点一己页-民以在萨二方女J=?f&lt;&lt;ITlC?k&amp;Jv&lt;%可+%e=&amp;%&lt;E&lt;EPZ%&lt;&lt;=%QZ&lt;&lt;&lt;zu&lt;Te&lt;JB在&lt;+&lt;%EG一&amp;办沿江苏准百待科技股有限公司v&lt;iJs华&lt;Tj&lt;&lt;日X==&lt;?xcy+PP&amp;zmH&lt;rxz&lt;z=&lt;&gt;ujJ&lt;ahs&lt;了公方几它的-申小应五-O们为一-公己弓吃伍听思夜-下-衣亚乙心恩己-它于吃巴依证些-公一代出于一战川具空了合-仅名改下小时已四一配E去#&lt;A&lt;两L!&gt;&lt;o&lt;A&lt;l&lt;Jj*E司xEz=z&lt;一一之%y习只&lt;uo天入已一o了身日至辽定名巴哀形泌忠了这否公旨兵号-O了内&lt;Z不looz&lt;z=&lt;Z方umSTEtXE%X&lt;zuS&lt;o&lt;己公可殷了在大英引市-为年丹人日公司廷十国三多行一及市人音如一-口处二加小号-公司关于公司股黑存在大速法剃市风哈提示性公告-动知以&lt;小-炎一了疫正公击公弓-D了O一一一个个二一之j洒随A-人许一行了公否母妥-和因小l&amp;#=A=n#&lt;mB=&gt;ui&gt;?JBs将q+zuzx=\"><\/p><\/p><p class=\"art_p\">早在2016年3月，*ST百特公布非公开发行股票预案，拟募集资金总额不超过10亿元，全部用于补充流动资金，申万宏源承销保荐担任保荐机构。<\/p><p class=\"art_p\">彼时，*ST百特在预案中表示，公司面临发展机遇期，主营业务持续快速发展。公司专注于公共建筑金属围护系统的工程设计与管理，2016 年国内市场空间，包括体育设施会展中心、高铁车站、机场航站楼等，将达到 100 亿元以上，且未来五年保持高速增长。报告期内，公司主营业务收入均来源于金属围护系统和分布式光伏屋面系统集成服务，呈现高速增长的态势。<\/p><p class=\"art_p\">而根据*ST百特2015年年报信息显示，公司当年实现营业收入达9.26亿元，净利润2.66亿元。在已签订的重大销售合同截至本报告期末的履行情况部分，其全资子公司山东雅百特与巴基斯坦的首都工程建设有限公司签订《木尔坦地铁公交工程建设工程施工合同》，合同总金额为3250万美元。<\/p><p class=\"art_p\">据悉，在此次项目中，*ST百特通过伪造巴基斯坦旁遮普省首席部长夏巴兹等巴政要信函，找海外公司伪造工程合同、项目进度单等材料，境内外公司汇款制作资金流动的假象，导致公司财务严重造假。<\/p><p class=\"art_p\">此后，剧情直转之下。2017年4月7日，证监会向*ST百特下发《调查通知书》，涉嫌信披违法的事宜开始被立案调查。12月15日，公司和相关人员收到中国证监会《行政处罚决定书》，对*ST百特责令改正、给予警告，并处以60万元罚款；对公司相关人员给予警告，并分别处以3万-30万元不等数额的罚款。<\/p><p class=\"art_p\">根据证监会行政处罚决定书，山东雅百特通过签订《木尔坦地铁公交工程建设施工合同》，虚构木尔坦地铁公交工程项目，伪造木尔坦项目等相关资料，制造项目施工假象。2015年，*ST百特以虚构木尔坦项目方式虚增营业收入20，182.50万元，相应虚增当期营业利润14，967.52万元，占当期披露利润总额的47.09%。<\/p><p class=\"art_p\">而在处罚决定书中，周乐提供的虚假照片也占有一席之地。决定书指出，2016年*ST百特先后向监管机构提供了部分其承建的木尔坦公交车站现场照片。根据有关证据，*ST百特提供的木尔坦公交车站照片实际为伊斯兰堡公交车站照片。<\/p><p class=\"art_p\"><p class=\"art_p\"><img src='https:\/\/n.sinaimg.cn\/spider20190701\/708\/w480h228\/20190701\/4f7f-hzfeken4848519.jpg' img-size=\"480,228\" ocr-text=\"一相厉压尖-安巴乓田众域一口习-上一时反R放旧后山证色判月打己门在口学运代可加年非里一五白疗忙中乌日也业下妥自-飞一心于迁劲三不可队小氏叹不日死工任回一白乎们尔型日行史当入这万元旧-些业一大了炎万元占六址叉班叫变!的HC刊后外近分的E分伦迁个沿日的庄巴史号-人了皎&lt;+如至-小l=比公相子之少司用女方一了空中已&gt;池沉空子烈山右共上态大工方巧烈习以下个小方入势了坦口广战口邹了l面&gt;化的了x目五在不旧必日中仅本一长一产工司几一面外E的了巴年三烈了K-尔的日-遂位沈必山班百即几幸远代百可日出心了均财一一万元缸好-口千个午见目个打口早肥巴业坐位一段担阳天年-咨O门报里吨斑山子百仿出口巴听圣生或开汉巧个听匹-二为九年百朽后可证队味了已上了了旧一名女页片民托有吴会在色日阳下无文一片一厅小一心口巴型型钢发队收一引否旦万一然芯然后匹圳天日药打一中工刊目低创征&lt;&lt;百$=Xt?#的K&lt;AZ&amp;Z&lt;方?WD不司&lt;Iv一XX&gt;s@&amp;&lt;i&lt;E#n#mzPZ&lt;&amp;xv*ljl&gt;出药上山百空十目i文在设月人护因巴文了进目-研节安引下一这哈立在由目中印一口小之勿化阵工司公打了旺E东班片也牙一一官能百必的石也以在胺-谷日迫名眠文手-名百孙症则小毛我对-列方史万西在皖显月小一下而手从发召动电已以下泌教幸-运可出口召班嗅小证我日日新转把-然此兰巴文名还广T旺司井非而巴形坦记册可安五一也在百-投灿找反公-吃司类与了下坦民甲过标段没以我主后小一一下\"><\/p><\/p><p class=\"art_p\">造假造成恶劣影响<\/p><p class=\"art_p\">*ST百特财务造假影响有多恶劣？其造假甚至致使外交部出面发声。<\/p><p class=\"art_p\">2017年9月4日，在外交部例行记者会上，新闻发言人回应*ST百特业绩造假事件称，中国证监会联合巴方有关部门对涉事公司进行调查，未将该公司所出具的有关巴政要的信函作为证据采信，也尚未发现证据证明该公司同巴境内相关公司和个人有任何经济关系及资金往来。<\/p><p class=\"art_p\">2018年7月，证监会公开表示，*ST百特信息披露违法违规案件是一起性质恶劣的上市公司跨境财务造假案件。据悉，*ST百特财务造假的主要内容是2015年所谓的在巴基斯坦木尔坦市开展的城市快速公交专线项目，但事实上*ST百特并未真实参与该项目，而是找海外公司伪造工程合同，并通过境内公司汇款伪造资金流动的假象。<\/p><p class=\"art_p\">此外，独立财务顾问机构金元证券、审计机构众华会计师事务所涉嫌出具含有虚假内容的证明文件。证监会称，已完成对相关中介机构及其从业人员涉嫌违法违规行为的调查，将被依法严肃处理。<\/p><p class=\"art_p\">就金元证券处罚情况来看，作为*ST百特资产重组财务顾问，其被采取“罚一没三”的行政处罚，共计罚没4000万元，两名直接负责的项目负责人分别罚款10万元。<\/p><p class=\"art_p\"><p class=\"art_p\"><img src='https:\/\/n.sinaimg.cn\/spider20190701\/91\/w480h411\/20190701\/22f3-hzfeken4848700.jpg' img-size=\"480,411\" ocr-text=\"收入一v万元并处以四万元罚款对直按负-雅百特项目的两金元证券股份石限公司以下前弥公司作为雅百特资产亚组财务厥间因涉然出具的文件年在假记赵于如旧年月引日仰任证监会根培征券法第百二十三条的规定没收公司务识哥性称述大困并对其内容的实生准性和尤坚生坦相云名试人给子告并分别以扣万元罚数可收到行政处罚下先告知书的-本伟况关于收到中因证监会行政处罚事先告知书的公告收到中民管会以下简称证盗会入出的行不一全半只同下的人果本内不任记我金元证券股份有限公政处罚丰先告知书-主要内容如下\"><\/p><\/p><p class=\"art_p\">众华会计师事务所被责令改正，罚没金额174万元，两名会计师被给予警告，分别罚款8万元。而从此次申万宏源承销保荐业务人员被注销资格来看，正反映了监管对于配合上市公司财务造假的“零容忍”。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/hk\/2019-07-01\/detail-ihytcerm0484404.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/hk\/2019-07-01\/doc-ihytcerm0484404.shtml"
+    },
+    {
+      "title": "投资者提问：董秘你好：请问若重组借壳成功，公司总股本多少？",
+      "time": "2019-07-01 10:16:36",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">董秘你好：请问若重组借壳成功，公司总股本多少？<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(东音股份SZ002793)：<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好，感谢您对公司的关注。目前东音转债尚处于转股期内，公司最新总股本为206,647,004股。根据本次重大资产重组草案，公司向重大资产重组交易对方发行股份的数量为633,173,648股，最终发行数量以中国证监会核准的数量为准。在定价基准日至发行日期间，若公司发生其它派息、送股、转增股本或配股等除息、除权行为，发行价格和发行数量将按照相关规定进行调整。另外，公司本次重大资产重组尚需获得中国证监会的核准，最终能否获得核准及最终获得核准的时间存在不确定性，敬请投资者注意风险。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8846747.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8846747.shtml"
+    },
+    {
+      "title": "投资者提问：董秘您好！按照今年一月31日的公告，一，二期持股计划在今年6月...",
+      "time": "2019-07-01 10:17:08",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">董秘您好！按照今年一月31日的公告，一，二期持股计划在今年6月到期已不可延长，第三期可以延长时间，您前述这三期持股计划都延长一年，这和前期公告不符呀！<\/p><\/p><div><p class=\"art_p\">董秘回答(宝新能源SZ000690)：<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">您好！根据公司《2015年至2024年员工持股计划》和《员工持股计划管理办法》，员工持股计划存续期届满前，由管理委员会提出，经公司董事会根据股东大会的授权审议通过后，员工持股计划的存续期可以延长。\n根据上述规定，综合考虑市场环境、持有人意愿、公司实际情况等各种因素，2019年5月，经员工持股计划管理委员会提出、八届七次董事会审议通过了《关于延长公司第一期、第二期、第三期员工持股计划存续期的议案》，同意延长公司第一、二、三期员工持股计划存续期12个月。（详见公司2019-029号公告）\n感谢您的关注与支持！<\/p><\/div><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0484712.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0484712.shtml"
+    },
+    {
+      "title": "投资者提问：请问公司6月、7月份订单怎么样",
+      "time": "2019-07-01 10:17:29",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问公司6月、7月份订单怎么样<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(瑞特股份SZ300600)：<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">与去年同期持平，谢谢。<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcitk8846741.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcitk8846741.shtml"
+    },
+    {
+      "title": "投资者提问：请问员工持股抛售完毕没有",
+      "time": "2019-07-01 10:17:58",
+      "src": "问董秘",
+      "category": "finance",
+      "pic": "https:\/\/n.sinaimg.cn\/default\/2fb77759\/20151125\/320X320.png",
+      "content": "<p class=\"art_p\"><p class=\"art_p\">投资者提问：<\/p><p class=\"art_p\">请问员工持股抛售完毕没有<\/p><\/p><p class=\"art_p\"><p class=\"art_p\">董秘回答(纽威股份SH603699)：<\/p><div sax-type=\"proxy\" class=\"j_native_jkl190701 box\" style=\"margin:20px 0\"><\/div><p class=\"art_p\">尊敬的投资者，员工持股没有抛售完毕，感谢您的关注！谢谢<\/p><\/p><p class=\"art_p\">查看更多董秘问答&gt;&gt;<\/p><p class=\"art_p\"><p class=\"art_p\">免责声明：本信息由新浪财经从公开信息中摘录，不构成任何投资建议；新浪财经不保证数据的准确性，内容仅供参考。<\/p><\/p>",
+      "url": "https:\/\/finance.sina.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/detail-ihytcerm0484561.d.html?vt=4&amp;pos=102&amp;cid=76524",
+      "weburl": "https:\/\/finance.sina.com.cn\/stock\/relnews\/dongmiqa\/2019-07-01\/doc-ihytcerm0484561.shtml"
+    }]
+  }
+}

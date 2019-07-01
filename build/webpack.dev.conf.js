@@ -12,9 +12,25 @@ const portfinder = require('portfinder')
 
 const express = require('express')
 const app = express()
-var newsData = require('../data.json')
-var channelsData = require('../channel.json')
-var guoji = require('../guoji.json')
+var channelsData = require('../data/channel.json')
+var yaoming = require('../data/yaoming.json')
+var toutiao = require('../data/toutiao.json')
+var xinwen = require('../data/xinwen.json')
+var guonei = require('../data/guonei.json')
+var guoji = require('../data/guoji.json')
+var zhengzhi = require('../data/zhengzhi.json')
+var caijing = require('../data/caijing.json')
+var tiyu = require('../data/tiyu.json')
+var yule = require('../data/yule.json')
+var junshi = require('../data/junshi.json')
+var jiaoyu = require('../data/jiaoyu.json')
+var keji = require('../data/keji.json')
+var NBA = require('../data/NBA.json')
+var gupiao = require('../data/gupiao.json')
+var xingzuo = require('../data/xingzuo.json')
+var nvxing = require('../data/nvxing.json')
+var jiankang = require('../data/jiankang.json')
+var yuer = require('../data/yuer.json')
 var apiRoutes = express.Router()
 
 app.use('/api', apiRoutes)
@@ -38,22 +54,118 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       ],
     },
     before(app) {
-      app.get('/api/0', (req, res) => {
-          res.json({
-            errno: 0,
-            data: newsData
-          })
-        }),
-        app.get('/api/channels', (req, res) => {
+      app.get('/api/channels', (req, res) => {
           res.json({
             errno: 0,
             data: channelsData
+          })
+        }),
+        app.get('/api/yaoming', (req, res) => {
+          res.json({
+            errno: 0,
+            data: yaoming
+          })
+        }),
+        app.get('/api/0', (req, res) => {
+          res.json({
+            errno: 0,
+            data: toutiao
+          })
+        }),
+        app.get('/api/1', (req, res) => {
+          res.json({
+            errno: 0,
+            data: xinwen
+          })
+        }),
+        app.get('/api/2', (req, res) => {
+          res.json({
+            errno: 0,
+            data: guonei
           })
         }),
         app.get('/api/3', (req, res) => {
           res.json({
             errno: 0,
             data: guoji
+          })
+        }),
+        app.get('/api/4', (req, res) => {
+          res.json({
+            errno: 0,
+            data: zhengzhi
+          })
+        }),
+        app.get('/api/5', (req, res) => {
+          res.json({
+            errno: 0,
+            data: caijing
+          })
+        }),
+        app.get('/api/6', (req, res) => {
+          res.json({
+            errno: 0,
+            data: tiyu
+          })
+        }),
+        app.get('/api/7', (req, res) => {
+          res.json({
+            errno: 0,
+            data: yule
+          })
+        }),
+        app.get('/api/8', (req, res) => {
+          res.json({
+            errno: 0,
+            data: junshi
+          })
+        }),
+        app.get('/api/9', (req, res) => {
+          res.json({
+            errno: 0,
+            data: jiaoyu
+          })
+        }),
+        app.get('/api/10', (req, res) => {
+          res.json({
+            errno: 0,
+            data: keji
+          })
+        }),
+        app.get('/api/11', (req, res) => {
+          res.json({
+            errno: 0,
+            data: NBA
+          })
+        }),
+        app.get('/api/12', (req, res) => {
+          res.json({
+            errno: 0,
+            data: gupiao
+          })
+        }),
+        app.get('/api/13', (req, res) => {
+          res.json({
+            errno: 0,
+            data: xinzuo
+          })
+        }),
+        app.get('/api/14', (req, res) => {
+          res.json({
+            errno: 0,
+            data: nvxing
+          })
+        }),
+        app.get('/api/15', (req, res) => {
+          res.json({
+            errno: 0,
+            data: jiankang
+          })
+        }),
+        app.get('/api/16', (req, res) => {
+          res.json({
+            errno: 0,
+            data: yuer
           })
         })
     },

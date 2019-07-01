@@ -3,6 +3,9 @@
     <div class="news" ref="news">
       <div class="news-wrapper" ref="newsWrapper">
         <ul class="news-list" v-if="news.msg==='ok'">
+          <div class="refresh" v-show="news" ref="refresh">
+            <p class="text"><span class="iconfont icon-refresh"></span>{{refreshText}}</p>
+          </div>
           <li class="news-item news-item-hook" v-for="(anew,index) in news.result.list" :key="index" @click="viewNews(anew,$event)">
             <div class="news-item-left">
               <h2 class="title">{{anew.title}}</h2>
@@ -23,9 +26,6 @@
       </div>
       <div class="no-content" v-show="news.msg!=='ok'">暂无内容</div>
       <!-- 下拉刷新模块 -->
-      <div class="refresh" v-show="news" ref="refresh">
-        <p class="text"><span class="iconfont icon-refresh"></span>{{refreshText}}</p>
-      </div>
       <!-- <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh> -->
     </div>
     <transition name="move">
@@ -42,6 +42,9 @@ export default {
   props: {
     news: {
       type: Object
+    },
+    newsFn2: {
+      type: Object
     }
   },
   data() {
@@ -49,8 +52,6 @@ export default {
       newsFn1: {},
       selectNews: {},
       urlChannel: '',
-      newsTop: 0,
-      dropDown: false,
       refreshText: '',
       pullDownText: '下拉刷新',
       refreshReady: '释放立即刷新',
@@ -64,17 +65,9 @@ export default {
     this.$nextTick(() => {
       this.scroll = new BScroll(this.$refs.news, {
         probeType: 2,
-        click: true,
-        pullDownRefresh: {
-          threshold: 70,
-          stop: 70
-        }
+        click: true
       })
       this.refreshText = this.pullDownText
-      this.scroll.on('pullingDown', () => {
-        console.log('refreshing')
-        this.scroll.finishPullDown()
-      })
       this.scroll.refresh()
       // 滑动事件
       this.scroll.on('scroll', (pos) => {
@@ -88,13 +81,10 @@ export default {
       this.scroll.on('touchend', (pos) => {
         if (pos.y > 70) {
           this.refreshText = this.refreshingText
-          this.$refs.newsWrapper.style.transform = 'translate(0px, 70px) translateZ(0px)'
-          console.log(this.$refs.newsWrapper.style.transform)
+          this.$refs.newsWrapper.style.marginTop = '70px'
           setTimeout(() => {
             _this.getData().then((res) => {
               _this.data = res
-              _this.refreshText = _this.successText
-              console.log('OK')
               _this.scroll.refresh()
             })
           }, 1000)
@@ -153,9 +143,11 @@ export default {
     },
     getData() {
       return new Promise(resolve => {
+        this.refreshText = this.successText
         setTimeout(() => {
-          resolve('OK')
+          this.$refs.newsWrapper.style.marginTop = '0px'
         }, 1000)
+        console.log('OK')
       })
     }
   },
@@ -203,10 +195,11 @@ export default {
   overflow: hidden;
 
   .news-wrapper {
-    background-color: #fff;
+    background-color: #f6f6f6;
 
     .news-list {
       position: relative;
+      background-color: #fff;
 
       .refresh {
         position: absolute;
@@ -215,7 +208,7 @@ export default {
         top: -70px;
         left: 0;
         background-color: #f6f6f6;
-        z-index: -1;
+        z-index: 0;
 
         .text {
           text-align: center;

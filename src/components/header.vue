@@ -5,7 +5,7 @@
         <span class="iconfont icon-aui-icon-mail"></span>
       </div>
       <h1 class="title">大标题<span class="iconfont icon-refresh"></span></h1>
-      <div class="search">
+      <div class="search" @click="search">
         <span class="iconfont icon-search"></span>
       </div>
     </div>
@@ -16,15 +16,17 @@
         </ul>
       </div>
       <!-- <div class="nav-plus">
-              <span class="iconfont icon-plus"></span>
+        <span class="iconfont icon-plus"></span>
       </div> -->
     </div>
+    <v-search :news="newsFn1" :searching="searching" @change-search="_changeSearch"></v-search>
   </div>
 </template>
 <script>
 import axios from 'axios'
 import BScroll from 'better-scroll'
 import { loadFromUrl } from '../common/js/getJson'
+import search from '@/components/search'
 
 export default {
   props: {
@@ -39,8 +41,12 @@ export default {
     return {
       navIndex: 0,
       newsFn1: {},
-      jsonList: []
+      jsonList: [],
+      searching: false
     }
+  },
+  components: {
+    'v-search': search
   },
   updated() {
     this._initNav()
@@ -52,6 +58,15 @@ export default {
     }
   },
   methods: {
+    search() {
+      this.searching = true
+    },
+    _changeSearch(searching) {
+      this.searching = searching
+    },
+    _changeData(newsFn1) {
+      this.newsFn1 = newsFn1
+    },
     _initNav() {
       let navWidth = 32
       let padding = 18
@@ -100,6 +115,7 @@ export default {
         if (!this.jsonList[this.navIndex]) {
           // 格式为
           // 【https://api.jisuapi.com/news/get?channel=头条&start=0&num=10&appkey=00d348dad5abd28e】
+          console.log(decodeURIComponent(this.channels.result[this.navIndex]))
           axios.get(`/api/${this.navIndex}`).then((response) => {
             response = response.data
             this.newsFn1 = response.data
@@ -124,15 +140,18 @@ export default {
 @import '../common/font/iconfont.css';
 
 .header {
-  background: linear-gradient(#f85959, #fff);
+  background: #fff;
+  z-index: 20;
 
   .header-inner {
     display: flex;
     padding: 10px;
+    background-color: #f85959;
 
     .message {
       flex: 0 0 32px;
       width: 32px;
+      color: #fff;
 
       .iconfont {
         padding: 4px;
@@ -146,7 +165,8 @@ export default {
       text-align: center;
       font-size: 20px;
       line-height: 28px;
-      // color: #fff;
+      font-weight: 700;
+      color: #fff;
 
       .iconfont {
         font-size: 16px;
@@ -157,6 +177,7 @@ export default {
     .search {
       flex: 0 0 32px;
       width: 32px;
+      color: #fff;
 
       .iconfont {
         font-size: 24px;
