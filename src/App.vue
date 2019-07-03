@@ -2,16 +2,13 @@
   <div id="app">
     <v-header @update-news="changeData" :news="news" :channels="channels"></v-header>
     <keep-alive>
-      <router-view :news="news" @update-news="changeData" />
+      <router-view :news="news" :channels="channels" @update-news="changeData" />
     </keep-alive>
   </div>
 </template>
 <script>
-import axios from 'axios'
 import header from '@/components/header'
 import news from '@/components/news'
-
-// const appKey = '00d348dad5abd28e'
 
 export default {
   data() {
@@ -21,14 +18,17 @@ export default {
     }
   },
   created() {
-    // axios.get('/api/0').then((response) => {
+    // this.$axios.get('/api/0').then((response) => {
     //   response = response.data
     //   this.news = response.data
     // }).catch((err) => {
     //   console.log(err)
     // })
-    axios.get('/api/channels').then((response) => {
-      response = response.data
+    // export const evidence_url = process.env.API_ROOT + '/' + ''
+
+    this.$axios.get(`channel?appkey=00d348dad5abd28e`).then((response) => {
+      // this.$axios.get('/channels').then((response) => {
+      // response = response.data
       this.channels = response.data
     }).catch((err) => {
       console.log(err)

@@ -93,6 +93,16 @@ export default {
     .article-content {
       padding: 0 16px;
 
+      .video {
+        video {
+          width: 100%;
+        }
+      }
+      .more-client {
+        font-size: 14px;
+        line-height: 28px;
+      }
+
       .art_t {
         display: block;
         text-indent: 0;
@@ -103,15 +113,16 @@ export default {
       }
 
       .art_p,
-      p {
+      p,
+      div {
         font-size: 16px;
         line-height: 24px;
-        text-indent: 2em;
+        // text-indent: 2em;
         padding: 10px 0;
         text-align: justify;
 
         img {
-          // width: 100%;
+          width: 100%;
         }
 
         .img_descr {

@@ -29,18 +29,23 @@
       <!-- <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh> -->
     </div>
     <transition name="move">
-      <router-view :selectNews="selectNews" />
+      <keep-alive>
+        <router-view :selectNews="selectNews" />
+      </keep-alive>
     </transition>
   </div>
 </template>
 <script>
 import BScroll from 'better-scroll'
 // import refresh from '@/components/refresh'
-// import { loadFromUrl } from '../common/js/getJson'
+import { loadFromUrl } from '../common/js/getJson'
 
 export default {
   props: {
     news: {
+      type: Object
+    },
+    channels: {
       type: Object
     },
     newsFn2: {
@@ -51,7 +56,6 @@ export default {
     return {
       newsFn1: {},
       selectNews: {},
-      urlChannel: '',
       refreshText: '',
       pullDownText: '下拉刷新',
       refreshReady: '释放立即刷新',
@@ -83,10 +87,10 @@ export default {
           this.refreshText = this.refreshingText
           this.$refs.newsWrapper.style.marginTop = '70px'
           setTimeout(() => {
-            _this.getData().then((res) => {
-              _this.data = res
-              _this.scroll.refresh()
-            })
+            _this.getData()
+            _this.scroll.refresh()
+            this.refreshText = this.successText
+            console.log('OK')
           }, 1000)
         }
       })
@@ -142,13 +146,46 @@ export default {
       })
     },
     getData() {
-      return new Promise(resolve => {
-        this.refreshText = this.successText
-        setTimeout(() => {
-          this.$refs.newsWrapper.style.marginTop = '0px'
-        }, 1000)
-        console.log('OK')
-      })
+      let navIndex = 0
+      if (this.channels) {
+        for (let i = 0; i < this.channels.result.length; i++) {
+          if (this.channels.result[i] === loadFromUrl().channel) {
+            navIndex = i
+            break
+          }
+        }
+      }
+      if (location.hash.split('/')[1] === 'news') {
+        this.$axios.get(`get?channel=${this.channels.result[navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
+          // this.$axios.get(`${this.navIndex}`).then((response) => {
+          // response = response.data
+          this.newsFn1 = response.data
+          // this.jsonList[this.navIndex] = this.newsFn1
+          this.$emit('update-news', this.newsFn1)
+          setTimeout(() => {
+            this.$refs.newsWrapper.style.marginTop = '0'
+          }, 1000)
+        }).catch(() => {
+          this.newsFn1 = {}
+          // this.jsonList[navIndex] = this.newsFn1
+          this.$emit('update-news', this.newsFn1)
+        })
+      } else {
+        this.$axios.get(`search?keyword=${loadFromUrl().keyword}&appkey=00d348dad5abd28e`).then((response) => {
+          // this.$axios.get(`${this.navIndex}`).then((response) => {
+          // response = response.data
+          this.newsFn1 = response.data
+          // this.jsonList[this.navIndex] = this.newsFn1
+          this.$emit('update-news', this.newsFn1)
+          setTimeout(() => {
+            this.$refs.newsWrapper.style.marginTop = '0'
+          }, 1000)
+        }).catch(() => {
+          this.newsFn1 = {}
+          // this.jsonList[navIndex] = this.newsFn1
+          this.$emit('update-news', this.newsFn1)
+        })
+      }
     }
   },
   components: {

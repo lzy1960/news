@@ -1,10 +1,11 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <div class="message">
+      <!-- <div class="message">
         <span class="iconfont icon-aui-icon-mail"></span>
-      </div>
-      <h1 class="title">大标题<span class="iconfont icon-refresh"></span></h1>
+      </div> -->
+      <h1 class="title">大标题<span class="iconfont icon-refresh" @click="refresh"></span>
+      </h1>
       <div class="search" @click="search">
         <span class="iconfont icon-search"></span>
       </div>
@@ -19,11 +20,9 @@
         <span class="iconfont icon-plus"></span>
       </div> -->
     </div>
-    <v-search :news="newsFn1" :searching="searching" @change-search="_changeSearch"></v-search>
   </div>
 </template>
 <script>
-import axios from 'axios'
 import BScroll from 'better-scroll'
 import { loadFromUrl } from '../common/js/getJson'
 import search from '@/components/search'
@@ -41,8 +40,7 @@ export default {
     return {
       navIndex: 0,
       newsFn1: {},
-      jsonList: [],
-      searching: false
+      jsonList: []
     }
   },
   components: {
@@ -54,15 +52,25 @@ export default {
   },
   watch: {
     channels: function() {
-      this.getChannel()
+      // this.getChannel()
     }
   },
   methods: {
-    search() {
-      this.searching = true
+    refresh() {
+      this.$axios.get(`${this.navIndex}`).then((response) => {
+        response = response.data
+        this.newsFn1 = response.data
+        this.jsonList[this.navIndex] = this.newsFn1
+        console.log('success')
+        this.$emit('update-news', this.newsFn1)
+      }).catch(() => {
+        this.newsFn1 = {}
+        this.jsonList[this.navIndex] = this.newsFn1
+        this.$emit('update-news', this.newsFn1)
+      })
     },
-    _changeSearch(searching) {
-      this.searching = searching
+    search() {
+      this.$router.push('/search')
     },
     _changeData(newsFn1) {
       this.newsFn1 = newsFn1
@@ -115,9 +123,10 @@ export default {
         if (!this.jsonList[this.navIndex]) {
           // 格式为
           // 【https://api.jisuapi.com/news/get?channel=头条&start=0&num=10&appkey=00d348dad5abd28e】
-          console.log(decodeURIComponent(this.channels.result[this.navIndex]))
-          axios.get(`/api/${this.navIndex}`).then((response) => {
-            response = response.data
+
+          this.$axios.get(`get?channel=${this.channels.result[this.navIndex]}&start=0&num=10&appkey=00d348dad5abd28e`).then((response) => {
+            // this.$axios.get(`${this.navIndex}`).then((response) => {
+            // response = response.data
             this.newsFn1 = response.data
             this.jsonList[this.navIndex] = this.newsFn1
             this.$emit('update-news', this.newsFn1)
@@ -144,13 +153,14 @@ export default {
   z-index: 20;
 
   .header-inner {
-    display: flex;
+    position: relative;
     padding: 10px;
     background-color: #f85959;
 
     .message {
-      flex: 0 0 32px;
-      width: 32px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
       color: #fff;
 
       .iconfont {
@@ -161,7 +171,6 @@ export default {
     }
 
     .title {
-      flex: 1;
       text-align: center;
       font-size: 20px;
       line-height: 28px;
@@ -175,8 +184,9 @@ export default {
     }
 
     .search {
-      flex: 0 0 32px;
-      width: 32px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
       color: #fff;
 
       .iconfont {
