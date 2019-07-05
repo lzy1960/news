@@ -96,6 +96,25 @@ export default {
       })
     })
   },
+  updated() {
+    if (this.news) {
+      let img = this.$refs.news.getElementsByTagName('img')
+      let count = 0
+      if (img && img.length) {
+        let timer = setInterval(() => {
+          if (count === img.length) {
+            this.scroll.refresh()
+            clearInterval(timer)
+          } else {
+            count++
+          }
+        }, 10)
+      }
+      this.$nextTick(() => {
+        this.scroll.refresh()
+      })
+    }
+  },
   mounted() {
     // this._initScroll()
   },

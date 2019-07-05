@@ -24,8 +24,7 @@ export default {
     // }).catch((err) => {
     //   console.log(err)
     // })
-    // export const evidence_url = process.env.API_ROOT + '/' + ''
-
+    // console.log(process.env.API_HOST)
     this.$axios.get(`channel?appkey=00d348dad5abd28e`).then((response) => {
       // this.$axios.get('/channels').then((response) => {
       // response = response.data

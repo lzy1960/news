@@ -57,7 +57,7 @@ export default {
   },
   methods: {
     refresh() {
-      this.$axios.get(`${this.navIndex}`).then((response) => {
+      this.$axios.get(`get?channel=${this.channels.result[this.navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
         response = response.data
         this.newsFn1 = response.data
         this.jsonList[this.navIndex] = this.newsFn1
@@ -122,9 +122,9 @@ export default {
         }
         if (!this.jsonList[this.navIndex]) {
           // 格式为
-          // 【https://api.jisuapi.com/news/get?channel=头条&start=0&num=10&appkey=00d348dad5abd28e】
+          // 【https://api.jisuapi.com/news/get?channel=头条&start=0&num=40&appkey=00d348dad5abd28e】
 
-          this.$axios.get(`get?channel=${this.channels.result[this.navIndex]}&start=0&num=10&appkey=00d348dad5abd28e`).then((response) => {
+          this.$axios.get(`get?channel=${this.channels.result[this.navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
             // this.$axios.get(`${this.navIndex}`).then((response) => {
             // response = response.data
             this.newsFn1 = response.data
