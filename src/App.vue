@@ -25,7 +25,7 @@ export default {
     //   console.log(err)
     // })
     // console.log(process.env.API_HOST)
-    this.$axios.get(`channel?appkey=00d348dad5abd28e`).then((response) => {
+    this.$axios.get(`http://api.jisuapi.com/news/channel?appkey=00d348dad5abd28e`).then((response) => {
       // this.$axios.get('/channels').then((response) => {
       // response = response.data
       this.channels = response.data

@@ -124,7 +124,7 @@ export default {
           // 格式为
           // 【https://api.jisuapi.com/news/get?channel=头条&start=0&num=40&appkey=00d348dad5abd28e】
 
-          this.$axios.get(`get?channel=${this.channels.result[this.navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
+          this.$axios.get(`http://api.jisuapi.com/news/get?channel=${this.channels.result[this.navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
             // this.$axios.get(`${this.navIndex}`).then((response) => {
             // response = response.data
             this.newsFn1 = response.data
