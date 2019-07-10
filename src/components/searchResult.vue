@@ -5,6 +5,8 @@
     </div>
     <h1 class="title">搜索结果</h1>
     <p class="text">“{{inputText}}”</p>
+    <div class="no-content" v-show="newsFn2.msg==='请求超过次数限制'">暂无内容</div>
+    <div class="no-content" v-if="newsFn2.msg!=='请求超过次数限制' && !newsFn2.result">加载中……</div>
     <div class="result">
       <v-news :news="newsFn2" v-if="newsFn2.msg==='ok'"></v-news>
     </div>
@@ -98,6 +100,17 @@ export default {
     border-bottom: 1px solid #ccc;
     color: #fff;
     background-color: #f85959;
+  }
+
+  .no-content {
+    width: 100%;
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+    background-color: #f6f6f6;
+    color: #7e8c8d;
+    text-align: center;
+    z-index: 10;
   }
 }
 

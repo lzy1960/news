@@ -6,8 +6,8 @@
           <span class="iconfont icon-left"></span>
         </div>
         <div class="input">
-          <input type="text" maxlength="10" placeholder="搜索" autofocus v-model="inputText" ref="input" />
-          <div class="clear" @click="clear">
+          <input type="text" maxlength="10" placeholder="搜索" autofocus v-model="inputText" ref="input" @keyup.enter="search" />
+          <div class="clear" @click="clear" v-show="inputText">
             <span class="iconfont icon-close"></span>
           </div>
         </div>
@@ -29,7 +29,7 @@
           <router-view :newsFn2="newsFn2" :inputText="inputText" @change-input="_changeInput" />
         </keep-alive>
       </transition>
-      <!-- <div class="search-wrapper" v-if="newsFn2.msg==='ok'">
+      <!-- <div class=" search-wrapper" v-if="newsFn2.msg==='ok'">
         <ul class="search-list">
           <li class="search-item search-item-hook" v-for="(anew,index) in newsFn2.result.list" :key="index" @click="viewNews(anew,$event)">
             <div class="search-item-left">
@@ -93,6 +93,7 @@ export default {
       if (!this.inputText) {
         return
       }
+      this.newsFn2 = {}
       axios.get(`search?keyword=${this.inputText}&appkey=00d348dad5abd28e`).then((response) => {
         // response = response.data
         this.newsFn2 = response.data
@@ -228,13 +229,13 @@ export default {
       width: 100%;
 
       .title {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         margin-right: 16px;
       }
 
       .no-history {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         text-align: center;
         color: #7e8c8d;

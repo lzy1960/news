@@ -24,9 +24,10 @@
           </li>
         </ul>
       </div>
-      <div class="no-content" v-show="news.msg!=='ok'">暂无内容</div>
+      <div class="no-content" v-show="news.msg==='请求超过次数限制'">暂无内容</div>
+      <div class="no-content" v-show="news.msg!=='请求超过次数限制' && news.msg!=='ok'">加载中……</div>
       <!-- 下拉刷新模块 -->
-      <!-- <v-refresh :news="news" :newsTop="newsTop" :dropDown="dropDown"></v-refresh> -->
+      <!-- <v-refresh :news="news" :newsTop="newsTop":dropDown="dropDown"></v-refresh> -->
     </div>
     <transition name="move">
       <keep-alive>
@@ -74,13 +75,13 @@ export default {
       this.refreshText = this.pullDownText
       this.scroll.refresh()
       // 滑动事件
-      this.scroll.on('scroll', (pos) => {
-        if (pos.y > 70) {
-          this.refreshText = this.refreshReady
-        } else {
-          this.refreshText = this.pullDownText
-        }
-      })
+      // this.scroll.on('scroll', (pos) => {
+      //   if (pos.y > 70) {
+      //     this.refreshText = this.refreshReady
+      //   } else {
+      //     this.refreshText = this.pullDownText
+      //   }
+      // })
       // 滑动结束
       this.scroll.on('touchend', (pos) => {
         if (pos.y > 70) {
@@ -108,7 +109,7 @@ export default {
           } else {
             count++
           }
-        }, 10)
+        }, 100)
       }
       this.$nextTick(() => {
         this.scroll.refresh()
@@ -131,7 +132,7 @@ export default {
             } else {
               count++
             }
-          }, 10)
+          }, 100)
         }
         this.$nextTick(() => {
           this.scroll.refresh()
@@ -152,11 +153,7 @@ export default {
         if (!this.scroll) {
           this.scroll = new BScroll(this.$refs.news, {
             click: true,
-            probeType: 3,
-            pullDownRefresh: {
-              threshold: 100,
-              stop: 70
-            }
+            probeType: 3
           })
         } else {
           // this.scroll.refresh()
@@ -183,7 +180,7 @@ export default {
           this.$emit('update-news', this.newsFn1)
           setTimeout(() => {
             this.$refs.newsWrapper.style.marginTop = '0'
-          }, 1000)
+          }, 200)
         }).catch(() => {
           this.newsFn1 = {}
           // this.jsonList[navIndex] = this.newsFn1
@@ -198,7 +195,7 @@ export default {
           this.$emit('update-news', this.newsFn1)
           setTimeout(() => {
             this.$refs.newsWrapper.style.marginTop = '0'
-          }, 1000)
+          }, 200)
         }).catch(() => {
           this.newsFn1 = {}
           // this.jsonList[navIndex] = this.newsFn1
@@ -334,10 +331,13 @@ export default {
         .news-item-right {
           flex: 0 0 33%;
           width: 33%;
+          height: 100%;
           margin-left: 5px;
 
           img {
+            display: block;
             width: 100%;
+            height: 100%;
           }
         }
       }

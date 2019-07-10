@@ -102,6 +102,8 @@ export default {
         return
       }
       let text = event.target.innerText
+      this.newsFn1 = {}
+      this.$emit('update-news', this.newsFn1)
       for (let i = 0; i < this.channels.result.length; i++) {
         let channel = this.channels.result[i]
         if (channel === text) {
