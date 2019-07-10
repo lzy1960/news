@@ -4,8 +4,7 @@
       <!-- <div class="message">
         <span class="iconfont icon-aui-icon-mail"></span>
       </div> -->
-      <h1 class="title">大标题<span class="iconfont icon-refresh" @click="refresh"></span>
-      </h1>
+      <h1 class="title">今日新闻</h1>
       <div class="search" @click="search">
         <span class="iconfont icon-search"></span>
       </div>

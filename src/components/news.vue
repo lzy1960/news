@@ -4,7 +4,7 @@
       <div class="news-wrapper" ref="newsWrapper">
         <ul class="news-list" v-if="news.msg==='ok'">
           <div class="refresh" v-show="news" ref="refresh">
-            <p class="text"><span class="iconfont icon-refresh"></span>{{refreshText}}</p>
+            <p class="text"><span class="iconfont icon-ellipsis" v-show="refreshText===refreshingText"></span>{{refreshText}}</p>
           </div>
           <li class="news-item news-item-hook" v-for="(anew,index) in news.result.list" :key="index" @click="viewNews(anew,$event)">
             <div class="news-item-left">
@@ -89,10 +89,10 @@ export default {
           this.$refs.newsWrapper.style.marginTop = '70px'
           setTimeout(() => {
             _this.getData()
-            _this.scroll.refresh()
-            this.refreshText = this.successText
+            // _this.scroll.refresh()
+            // this.refreshText = this.successText
             console.log('OK')
-          }, 1000)
+          }, 500)
         }
       })
     })
@@ -163,6 +163,7 @@ export default {
     },
     getData() {
       let navIndex = 0
+      let _this = this
       if (this.channels) {
         for (let i = 0; i < this.channels.result.length; i++) {
           if (this.channels.result[i] === loadFromUrl().channel) {
@@ -171,16 +172,22 @@ export default {
           }
         }
       }
-      if (location.hash.split('/')[1] === 'news') {
+      if (location.hash.split('/')[1].split('?')[0] === 'news') {
         this.$axios.get(`get?channel=${this.channels.result[navIndex]}&start=0&num=40&appkey=00d348dad5abd28e`).then((response) => {
           // this.$axios.get(`${this.navIndex}`).then((response) => {
           // response = response.data
           this.newsFn1 = response.data
           // this.jsonList[this.navIndex] = this.newsFn1
+          this.refreshText = this.successText
           this.$emit('update-news', this.newsFn1)
+
           setTimeout(() => {
-            this.$refs.newsWrapper.style.marginTop = '0'
-          }, 200)
+            _this.$refs.newsWrapper.style.marginTop = '0'
+            this.refreshText = this.pullDownText
+            _this.$nextTick(() => {
+              _this.scroll.refresh()
+            })
+          }, 1000)
         }).catch(() => {
           this.newsFn1 = {}
           // this.jsonList[navIndex] = this.newsFn1
@@ -192,10 +199,16 @@ export default {
           // response = response.data
           this.newsFn1 = response.data
           // this.jsonList[this.navIndex] = this.newsFn1
+          this.refreshText = this.successText
           this.$emit('update-news', this.newsFn1)
+
           setTimeout(() => {
-            this.$refs.newsWrapper.style.marginTop = '0'
-          }, 200)
+            _this.$refs.newsWrapper.style.marginTop = '0'
+            this.refreshText = this.pullDownText
+            _this.$nextTick(() => {
+              _this.scroll.refresh()
+            })
+          }, 1000)
         }).catch(() => {
           this.newsFn1 = {}
           // this.jsonList[navIndex] = this.newsFn1
@@ -211,6 +224,8 @@ export default {
 
 </script>
 <style lang="less" scoped>
+@import '../common/font/iconfont.css';
+
 .move-enter-active,
 .move-leave-active {
   transition: all 0.3s;
