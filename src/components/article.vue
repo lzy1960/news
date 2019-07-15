@@ -27,6 +27,7 @@ export default {
     this._initScroll()
   },
   updated() {
+    this.getImg()
     this._initScroll()
   },
   methods: {
@@ -53,7 +54,7 @@ export default {
           } else {
             count++
           }
-        }, 50)
+        }, 500)
       }
     }
   }
