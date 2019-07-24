@@ -2,7 +2,7 @@
   <div id="app">
     <v-header @update-news="changeData" :news="news" :channels="channels"></v-header>
     <keep-alive>
-      <router-view :news="news" :channels="channels" @update-news="changeData" />
+      <router-view v-wechat-title="$route.meta.title" :news="news" :channels="channels" @update-news="changeData" />
     </keep-alive>
   </div>
 </template>

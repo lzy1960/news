@@ -6,6 +6,16 @@ import VueRouter from 'vue-router'
 import router from './router'
 import VueResource from 'vue-resource'
 import axios from 'axios'
+import VueWechatTitle from 'vue-wechat-title'
+
+Vue.use(VueWechatTitle)
+
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title
+  }
+  next()
+})
 
 Vue.prototype.$axios = axios
 

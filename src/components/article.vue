@@ -9,7 +9,7 @@
       <div class="article-content" v-html="selectNews.content">
         {{selectNews.content}}
       </div>
-      <a class="source-link" :href="selectNews.url">阅读原文</a>
+      <!-- <a class="source-link" :href="selectNews.url">阅读原文</a> -->
     </div>
   </div>
 </template>
@@ -35,7 +35,7 @@ export default {
       this.$nextTick(() => {
         if (!this.scroll) {
           this.scroll = new BScroll(this.$refs.article, {
-            click: true
+            // click: true
           })
         } else {
           this.scroll.refresh()

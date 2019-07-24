@@ -145,6 +145,7 @@ export default {
       if (!event._constructed) {
         return
       }
+      this.selectNews = {}
       this.selectNews = news
       this.$router.push(`${this.$route.path}/article`)
     },
