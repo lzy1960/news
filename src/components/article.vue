@@ -1,7 +1,12 @@
 <template>
   <div class="article" ref="article">
     <div class="article-wrapper">
-      <h1 class="article-title">{{selectNews.title}}</h1>
+      <div class="article-top">
+        <div class="back" @click="back">
+          <span class="iconfont icon-left"></span>
+        </div>
+        <h1 class="article-title">{{selectNews.title}}</h1>
+      </div>
       <div class="desc">
         <span class="time">{{selectNews.time}}</span>
         <span class="name">{{selectNews.src}}</span>
@@ -31,11 +36,15 @@ export default {
     this._initScroll()
   },
   methods: {
+    back() {
+      this.$router.go(-1)
+      console.log('OK')
+    },
     _initScroll() {
       this.$nextTick(() => {
         if (!this.scroll) {
           this.scroll = new BScroll(this.$refs.article, {
-            // click: true
+            click: true
           })
         } else {
           this.scroll.refresh()
@@ -62,6 +71,8 @@ export default {
 
 </script>
 <style lang="less">
+@import '../common/font/iconfont.css';
+
 .article {
   position: absolute;
   top: 0;
@@ -73,10 +84,27 @@ export default {
   z-index: 10;
 
   .article-wrapper {
-    .article-title {
-      font-size: 24px;
-      line-height: 36px;
-      padding: 16px;
+    .article-top {
+      display: flex;
+
+      .back {
+        flex: 0 0 40px;
+        width: 40px;
+        color: #000;
+
+        .iconfont {
+          padding: 4px;
+          font-size: 20px;
+          line-height: 70px;
+        }
+      }
+
+      .article-title {
+        flex: 1;
+        font-size: 24px;
+        line-height: 36px;
+        padding: 16px;
+      }
     }
 
     .desc {
@@ -99,6 +127,7 @@ export default {
           width: 100%;
         }
       }
+
       .more-client {
         font-size: 14px;
         line-height: 28px;

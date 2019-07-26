@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     back() {
-      this.$router.back(-1)
+      this.$router.go(-1)
       this.inputTextFn1 = ''
       this.$emit('change-input', this.inputTextFn1)
     }
